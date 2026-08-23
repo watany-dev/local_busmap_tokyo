@@ -1,0 +1,51 @@
+{
+  "feed_id": "F018",
+  "municipality": "瑞穂町",
+  "service_name": "コミュニティバス",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2024-01-01",
+  "feed_end_date": "2027-03-31",
+  "feed_version": "20260301改正",
+  "counts": {
+    "agency.txt": 1,
+    "calendar.txt": 2,
+    "calendar_dates.txt": 162,
+    "fare_attributes.txt": 1,
+    "fare_rules.txt": 1,
+    "feed_info.txt": 1,
+    "office_jp.txt": 0,
+    "routes.txt": 5,
+    "shapes.txt": 2490,
+    "stop_times.txt": 1691,
+    "stops.txt": 61,
+    "transfers.txt": 2,
+    "translations.txt": 92,
+    "trips.txt": 94
+  },
+  "active_service_ids": [
+    "土休日"
+  ],
+  "active_trip_count": 44,
+  "has_shapes": true,
+  "files": [
+    "agency.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "fare_rules.txt",
+    "feed_info.txt",
+    "office_jp.txt",
+    "routes.txt",
+    "shapes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "transfers.txt",
+    "translations.txt",
+    "trips.txt"
+  ],
+  "issues": [],
+  "error_count": 0,
+  "warning_count": 0,
+  "is_valid": true
+}

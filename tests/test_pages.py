@@ -71,6 +71,14 @@ class NearbyAndPagesTest(unittest.TestCase):
         self.assertIn("function nearbyStops(", script)
         self.assertIn('loadJson(`${DATA_BASE}/stops.geojson`', script)
 
+    def test_pages_workflow_enables_github_pages(self) -> None:
+        workflow = (ROOT / ".github/workflows/pages.yml").read_text(encoding="utf-8")
+        self.assertIn("enablement: true", workflow)
+        self.assertIn("pages: write", workflow)
+        self.assertIn("id-token: write", workflow)
+        self.assertIn("actions/deploy-pages@v4", workflow)
+        self.assertNotIn("continue-on-error: true", workflow)
+
     def test_export_pages_and_static_smoke(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             data_dir = Path(temp_dir) / "data"

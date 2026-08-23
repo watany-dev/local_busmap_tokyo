@@ -3,6 +3,8 @@
 東京都内の**都営バスを除く**自治体・地域交通（コミュニティバス等）の静的GTFSを取得・検証し、
 GeoJSONへ正規化して「現在地から近い停留所」を地図で探せるようにするMVPです。
 
+公開地図: <https://watany-dev.github.io/local_busmap_tokyo/>
+
 調査台帳で優先度Aとした静的GTFS **21フィード**を `config/feeds.json` に設定済みです。
 
 - 引き継ぎ元メモ: [`docs/HANDOFF.md`](docs/HANDOFF.md)
@@ -141,14 +143,12 @@ GitHub Pages は **静的ファイルだけ** を配信できます。Python サ
 - 「現在地から探す」は読み込み済み停留所への Haversine 計算（`web/app.js`）
 - WASM / Pyodide は、21フィード規模の距離計算には過剰で読み込みも重いため使いません
 
-公開手順:
+公開 URL: <https://watany-dev.github.io/local_busmap_tokyo/>
 
-1. リポジトリの **Settings → Pages → Build and deployment → Source** を **GitHub Actions** にする
-2. デフォルトブランチへこの変更をマージする（または Actions から `Deploy GitHub Pages` を手動実行）
-3. サイト URL: `https://<user>.github.io/local_busmap_tokyo/`
+Settings → Pages の Source は **GitHub Actions** です。`main` への push、または Actions の `Deploy GitHub Pages` 手動実行でデプロイします。`github-pages` 環境は `main` からのデプロイのみ許可しています。
 
 `.github/workflows/pages.yml` は `web/` と `data/normalized/all/` を `site/` に組み立ててデプロイします。
-カタログが空のときは、デプロイ前に GTFS 取得を1回試みます（失敗しても空の地図は公開されます）。
+カタログが空のときは、デプロイ前に GTFS 取得を1回試みます。取得に失敗した場合は空の地図を出さず、ジョブを失敗させます。
 日次の `update-gtfs.yml` が GeoJSON をコミットすると、Pages ワークフローが再デプロイします。
 
 手元で静的サイトだけ確認する場合:

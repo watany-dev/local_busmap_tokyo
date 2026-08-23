@@ -1,0 +1,52 @@
+{
+  "feed_id": "F029",
+  "municipality": "荒川区",
+  "service_name": "コミュニティバスさくら",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2026-03-01",
+  "feed_end_date": "2027-03-21",
+  "feed_version": "-2026年02月24日 11時54分43秒-西沢ツールver8.31",
+  "counts": {
+    "agency.txt": 1,
+    "calendar.txt": 3,
+    "calendar_dates.txt": 72,
+    "fare_attributes.txt": 1,
+    "fare_rules.txt": 1,
+    "feed_info.txt": 1,
+    "office_jp.txt": 0,
+    "routes.txt": 4,
+    "shapes.txt": 256,
+    "stop_times.txt": 568,
+    "stops.txt": 32,
+    "transfers.txt": 0,
+    "translations.txt": 30,
+    "trips.txt": 34
+  },
+  "active_service_ids": [
+    "土休日",
+    "毎日"
+  ],
+  "active_trip_count": 28,
+  "has_shapes": true,
+  "files": [
+    "agency.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "fare_rules.txt",
+    "feed_info.txt",
+    "office_jp.txt",
+    "routes.txt",
+    "shapes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "transfers.txt",
+    "translations.txt",
+    "trips.txt"
+  ],
+  "issues": [],
+  "error_count": 0,
+  "warning_count": 0,
+  "is_valid": true
+}

@@ -1,0 +1,58 @@
+{
+  "feed_id": "F012",
+  "municipality": "国立市",
+  "service_name": "あおやぎっこ",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2026-01-13",
+  "feed_end_date": "2027-01-12",
+  "feed_version": "20260113あおやぎっこ初版-2026年01月13日 11時48分36秒-西沢ツールver8.31",
+  "counts": {
+    "agency.txt": 1,
+    "calendar.txt": 1,
+    "calendar_dates.txt": 21,
+    "fare_attributes.txt": 1,
+    "fare_rules.txt": 1,
+    "feed_info.txt": 1,
+    "office_jp.txt": 0,
+    "routes.txt": 2,
+    "shapes.txt": 470,
+    "stop_times.txt": 382,
+    "stops.txt": 21,
+    "transfers.txt": 0,
+    "translations.txt": 53,
+    "trips.txt": 22
+  },
+  "active_service_ids": [],
+  "active_trip_count": 0,
+  "has_shapes": true,
+  "files": [
+    "agency.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "fare_rules.txt",
+    "feed_info.txt",
+    "office_jp.txt",
+    "routes.txt",
+    "shapes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "transfers.txt",
+    "translations.txt",
+    "trips.txt"
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "no_active_service",
+      "message": "No active service_id found for 2026-08-23",
+      "table": null,
+      "row": null,
+      "sample": []
+    }
+  ],
+  "error_count": 0,
+  "warning_count": 1,
+  "is_valid": true
+}
