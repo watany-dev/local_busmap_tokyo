@@ -1,0 +1,50 @@
+{
+  "feed_id": "F022",
+  "municipality": "台東区",
+  "service_name": "めぐりん",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2025-08-10",
+  "feed_end_date": "2026-12-31",
+  "feed_version": "20250801_MEG001",
+  "counts": {
+    "agency.txt": 1,
+    "agency_jp.txt": 1,
+    "calendar.txt": 3,
+    "calendar_dates.txt": 54,
+    "fare_attributes.txt": 1,
+    "feed_info.txt": 1,
+    "office_jp.txt": 1,
+    "routes.txt": 4,
+    "shapes.txt": 2637,
+    "stop_times.txt": 8261,
+    "stops.txt": 128,
+    "transfers.txt": 24,
+    "trips.txt": 290
+  },
+  "active_service_ids": [
+    "土日祝",
+    "毎日"
+  ],
+  "active_trip_count": 119,
+  "has_shapes": true,
+  "files": [
+    "agency.txt",
+    "agency_jp.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "feed_info.txt",
+    "office_jp.txt",
+    "routes.txt",
+    "shapes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "transfers.txt",
+    "trips.txt"
+  ],
+  "issues": [],
+  "error_count": 0,
+  "warning_count": 0,
+  "is_valid": true
+}

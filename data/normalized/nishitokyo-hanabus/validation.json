@@ -1,0 +1,49 @@
+{
+  "feed_id": "F030",
+  "municipality": "西東京市",
+  "service_name": "はなバス",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2026-04-01",
+  "feed_end_date": "2027-03-31",
+  "feed_version": "2026/04/01改正-見える化ver2.6h",
+  "counts": {
+    "agency.txt": 1,
+    "calendar.txt": 2,
+    "calendar_dates.txt": 35,
+    "fare_attributes.txt": 1,
+    "fare_rules.txt": 7,
+    "feed_info.txt": 1,
+    "routes.txt": 7,
+    "shapes.txt": 3534,
+    "stop_times.txt": 8358,
+    "stops.txt": 146,
+    "transfers.txt": 0,
+    "translations.txt": 293,
+    "trips.txt": 514
+  },
+  "active_service_ids": [
+    "土休日"
+  ],
+  "active_trip_count": 211,
+  "has_shapes": true,
+  "files": [
+    "agency.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "fare_rules.txt",
+    "feed_info.txt",
+    "routes.txt",
+    "shapes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "transfers.txt",
+    "translations.txt",
+    "trips.txt"
+  ],
+  "issues": [],
+  "error_count": 0,
+  "warning_count": 0,
+  "is_valid": true
+}

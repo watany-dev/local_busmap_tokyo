@@ -1,0 +1,57 @@
+{
+  "feed_id": "F023",
+  "municipality": "小笠原村",
+  "service_name": "村営バス",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2026-02-10",
+  "feed_end_date": "2027-02-10",
+  "feed_version": "2026/02/09改正-見える化ver2.6e",
+  "counts": {
+    "agency.txt": 1,
+    "calendar.txt": 3,
+    "calendar_dates.txt": 56,
+    "fare_attributes.txt": 1,
+    "fare_rules.txt": 3,
+    "feed_info.txt": 1,
+    "routes.txt": 3,
+    "stop_times.txt": 518,
+    "stops.txt": 29,
+    "transfers.txt": 0,
+    "translations.txt": 31,
+    "trips.txt": 42
+  },
+  "active_service_ids": [
+    "全日",
+    "土日祝"
+  ],
+  "active_trip_count": 18,
+  "has_shapes": false,
+  "files": [
+    "agency.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "fare_rules.txt",
+    "feed_info.txt",
+    "routes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "transfers.txt",
+    "translations.txt",
+    "trips.txt"
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "missing_shapes",
+      "message": "shapes.txt is absent; route geometry will be reconstructed from representative stop sequences",
+      "table": "shapes.txt",
+      "row": null,
+      "sample": []
+    }
+  ],
+  "error_count": 0,
+  "warning_count": 1,
+  "is_valid": true
+}

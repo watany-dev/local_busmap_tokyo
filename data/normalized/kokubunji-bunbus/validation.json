@@ -1,0 +1,53 @@
+{
+  "feed_id": "F010",
+  "municipality": "国分寺市",
+  "service_name": "ぶんバス",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2026-01-05",
+  "feed_end_date": "2027-06-30",
+  "feed_version": "20260105_K001",
+  "counts": {
+    "agency.txt": 1,
+    "agency_jp.txt": 1,
+    "calendar.txt": 2,
+    "calendar_dates.txt": 0,
+    "fare_attributes.txt": 4,
+    "fare_rules.txt": 24,
+    "feed_info.txt": 1,
+    "office_jp.txt": 3,
+    "routes.txt": 6,
+    "shapes.txt": 1510,
+    "stop_times.txt": 2684,
+    "stops.txt": 106,
+    "transfers.txt": 0,
+    "translations.txt": 113,
+    "trips.txt": 143
+  },
+  "active_service_ids": [
+    "毎日"
+  ],
+  "active_trip_count": 140,
+  "has_shapes": true,
+  "files": [
+    "agency.txt",
+    "agency_jp.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "fare_rules.txt",
+    "feed_info.txt",
+    "office_jp.txt",
+    "routes.txt",
+    "shapes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "transfers.txt",
+    "translations.txt",
+    "trips.txt"
+  ],
+  "issues": [],
+  "error_count": 0,
+  "warning_count": 0,
+  "is_valid": true
+}

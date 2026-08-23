@@ -1,0 +1,50 @@
+{
+  "feed_id": "F021",
+  "municipality": "千代田区",
+  "service_name": "風ぐるま",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2026-06-02",
+  "feed_end_date": "2027-12-31",
+  "feed_version": "Kaze_20260602",
+  "counts": {
+    "agency.txt": 1,
+    "agency_jp.txt": 1,
+    "calendar.txt": 3,
+    "calendar_dates.txt": 48,
+    "fare_attributes.txt": 1,
+    "feed_info.txt": 1,
+    "office_jp.txt": 1,
+    "routes.txt": 6,
+    "shapes.txt": 1143,
+    "stop_times.txt": 2049,
+    "stops.txt": 79,
+    "transfers.txt": 1,
+    "trips.txt": 91
+  },
+  "active_service_ids": [
+    "土日祝",
+    "毎日"
+  ],
+  "active_trip_count": 45,
+  "has_shapes": true,
+  "files": [
+    "agency.txt",
+    "agency_jp.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "feed_info.txt",
+    "office_jp.txt",
+    "routes.txt",
+    "shapes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "transfers.txt",
+    "trips.txt"
+  ],
+  "issues": [],
+  "error_count": 0,
+  "warning_count": 0,
+  "is_valid": true
+}

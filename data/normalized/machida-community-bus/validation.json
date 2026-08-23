@@ -1,0 +1,61 @@
+{
+  "feed_id": "F016",
+  "municipality": "町田市",
+  "service_name": "市民バス・コミュニティバス",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2020-12-01",
+  "feed_end_date": "2028-03-31",
+  "feed_version": "2026_3_16_R12_daiyakaisei-2026年03月18日 09時40分15秒-西沢ツールver8.31",
+  "counts": {
+    "agency.txt": 1,
+    "agency_jp.txt": 1,
+    "calendar.txt": 5,
+    "calendar_dates.txt": 168,
+    "fare_attributes.txt": 5,
+    "fare_rules.txt": 2900,
+    "feed_info.txt": 1,
+    "office_jp.txt": 0,
+    "routes.txt": 16,
+    "stop_times.txt": 3177,
+    "stops.txt": 132,
+    "transfers.txt": 0,
+    "translations.txt": 116,
+    "trips.txt": 185
+  },
+  "active_service_ids": [
+    "S2",
+    "S3"
+  ],
+  "active_trip_count": 87,
+  "has_shapes": false,
+  "files": [
+    "agency.txt",
+    "agency_jp.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "fare_rules.txt",
+    "feed_info.txt",
+    "office_jp.txt",
+    "routes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "transfers.txt",
+    "translations.txt",
+    "trips.txt"
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "missing_shapes",
+      "message": "shapes.txt is absent; route geometry will be reconstructed from representative stop sequences",
+      "table": "shapes.txt",
+      "row": null,
+      "sample": []
+    }
+  ],
+  "error_count": 0,
+  "warning_count": 1,
+  "is_valid": true
+}

@@ -1,0 +1,58 @@
+{
+  "feed_id": "F013",
+  "municipality": "清瀬市",
+  "service_name": "きよバス",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2026-04-01",
+  "feed_end_date": "2027-11-23",
+  "feed_version": "20260402_00001",
+  "counts": {
+    "agency.txt": 1,
+    "agency_jp.txt": 1,
+    "calendar.txt": 3,
+    "calendar_dates.txt": 58,
+    "fare_attributes.txt": 1,
+    "fare_rules.txt": 2,
+    "feed_info.txt": 1,
+    "office_jp.txt": 15,
+    "routes.txt": 2,
+    "stop_times.txt": 1152,
+    "stops.txt": 57,
+    "translations.txt": 173,
+    "trips.txt": 48
+  },
+  "active_service_ids": [
+    "10-休日"
+  ],
+  "active_trip_count": 16,
+  "has_shapes": false,
+  "files": [
+    "agency.txt",
+    "agency_jp.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "fare_rules.txt",
+    "feed_info.txt",
+    "office_jp.txt",
+    "routes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "translations.txt",
+    "trips.txt"
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "missing_shapes",
+      "message": "shapes.txt is absent; route geometry will be reconstructed from representative stop sequences",
+      "table": "shapes.txt",
+      "row": null,
+      "sample": []
+    }
+  ],
+  "error_count": 0,
+  "warning_count": 1,
+  "is_valid": true
+}

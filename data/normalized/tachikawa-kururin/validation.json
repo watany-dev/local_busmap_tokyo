@@ -1,0 +1,56 @@
+{
+  "feed_id": "F014",
+  "municipality": "立川市",
+  "service_name": "くるりん",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2026-04-01",
+  "feed_end_date": "2027-03-31",
+  "feed_version": "2026/04/01改正-見える化ver2.6h",
+  "counts": {
+    "agency.txt": 1,
+    "calendar.txt": 4,
+    "calendar_dates.txt": 767,
+    "fare_attributes.txt": 1,
+    "fare_rules.txt": 5,
+    "feed_info.txt": 1,
+    "routes.txt": 5,
+    "stop_times.txt": 3683,
+    "stops.txt": 90,
+    "transfers.txt": 0,
+    "translations.txt": 195,
+    "trips.txt": 173
+  },
+  "active_service_ids": [
+    "土日祝"
+  ],
+  "active_trip_count": 33,
+  "has_shapes": false,
+  "files": [
+    "agency.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "fare_rules.txt",
+    "feed_info.txt",
+    "routes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "transfers.txt",
+    "translations.txt",
+    "trips.txt"
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "missing_shapes",
+      "message": "shapes.txt is absent; route geometry will be reconstructed from representative stop sequences",
+      "table": "shapes.txt",
+      "row": null,
+      "sample": []
+    }
+  ],
+  "error_count": 0,
+  "warning_count": 1,
+  "is_valid": true
+}

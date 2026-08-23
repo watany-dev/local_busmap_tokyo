@@ -1,0 +1,51 @@
+{
+  "feed_id": "F011",
+  "municipality": "国立市",
+  "service_name": "くにっこ",
+  "service_date": "2026-08-23",
+  "status": "valid",
+  "feed_start_date": "2026-07-01",
+  "feed_end_date": "2027-06-30",
+  "feed_version": "20260701更新-2026年06月03日 16時19分39秒-西沢ツールver8.31",
+  "counts": {
+    "agency.txt": 1,
+    "calendar.txt": 2,
+    "calendar_dates.txt": 8,
+    "fare_attributes.txt": 1,
+    "fare_rules.txt": 1,
+    "feed_info.txt": 1,
+    "office_jp.txt": 0,
+    "routes.txt": 2,
+    "shapes.txt": 629,
+    "stop_times.txt": 1394,
+    "stops.txt": 51,
+    "transfers.txt": 0,
+    "translations.txt": 94,
+    "trips.txt": 62
+  },
+  "active_service_ids": [
+    "毎日"
+  ],
+  "active_trip_count": 49,
+  "has_shapes": true,
+  "files": [
+    "agency.txt",
+    "calendar.txt",
+    "calendar_dates.txt",
+    "fare_attributes.txt",
+    "fare_rules.txt",
+    "feed_info.txt",
+    "office_jp.txt",
+    "routes.txt",
+    "shapes.txt",
+    "stop_times.txt",
+    "stops.txt",
+    "transfers.txt",
+    "translations.txt",
+    "trips.txt"
+  ],
+  "issues": [],
+  "error_count": 0,
+  "warning_count": 0,
+  "is_valid": true
+}
