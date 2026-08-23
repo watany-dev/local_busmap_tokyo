@@ -1,5 +1,10 @@
 "use strict";
 
+// GitHub Pages は静的配信のみ。近傍検索はサーバーAPIもWASMも使わず、
+// 読み込み済み GeoJSON に対して Python 実装と同じ Haversine をブラウザで計算する。
+const EARTH_RADIUS_M = 6371008.8;
+const DATA_BASE = "data/normalized/all";
+
 const state = {
   map: null,
   stops: { type: "FeatureCollection", features: [] },
@@ -31,6 +36,41 @@ async function loadJson(url, fallback) {
     console.error(`Failed to load ${url}`, error);
     return fallback;
   }
+}
+
+function haversineM(lat1, lon1, lat2, lon2) {
+  const toRad = (degrees) => (degrees * Math.PI) / 180;
+  const phi1 = toRad(lat1);
+  const phi2 = toRad(lat2);
+  const deltaPhi = toRad(lat2 - lat1);
+  const deltaLambda = toRad(lon2 - lon1);
+  const a =
+    Math.sin(deltaPhi / 2) ** 2 +
+    Math.cos(phi1) * Math.cos(phi2) * Math.sin(deltaLambda / 2) ** 2;
+  return EARTH_RADIUS_M * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function nearbyStops(collection, lat, lon, radiusM, limit) {
+  const clampedRadius = Math.min(Math.max(Number(radiusM) || 800, 10), 20000);
+  const clampedLimit = Math.min(Math.max(Number(limit) || 50, 1), 500);
+  const matches = [];
+  for (const feature of collection.features || []) {
+    const coordinates = feature.geometry && feature.geometry.coordinates;
+    if (!coordinates || coordinates.length < 2) continue;
+    const stopLon = Number(coordinates[0]);
+    const stopLat = Number(coordinates[1]);
+    if (!Number.isFinite(stopLat) || !Number.isFinite(stopLon)) continue;
+    const distance = haversineM(lat, lon, stopLat, stopLon);
+    if (distance <= clampedRadius) {
+      matches.push({
+        type: feature.type,
+        geometry: feature.geometry,
+        properties: { ...(feature.properties || {}), distance_m: Math.round(distance * 10) / 10 },
+      });
+    }
+  }
+  matches.sort((left, right) => left.properties.distance_m - right.properties.distance_m);
+  return matches.slice(0, clampedLimit);
 }
 
 function initMap() {
@@ -147,6 +187,20 @@ function populateFeedSelect() {
   });
 }
 
+function renderAttribution() {
+  const element = document.getElementById("data-attribution");
+  if (!element) return;
+  const feeds = state.catalog.feeds || [];
+  if (!feeds.length) {
+    element.textContent = "";
+    return;
+  }
+  element.textContent = `交通データ: ${feeds.map((feed) => {
+    const license = feed.license ? `（${feed.license}）` : "";
+    return `${feed.municipality} ${feed.service_name}${license}`;
+  }).join("、")}。`;
+}
+
 function locate() {
   const button = document.getElementById("locate-button");
   const status = document.getElementById("location-status");
@@ -191,11 +245,9 @@ function showCurrentLocation(lon, lat, accuracy) {
   console.info(`Geolocation accuracy: ${accuracy}m`);
 }
 
-async function requestNearby(lat, lon) {
+function requestNearby(lat, lon) {
   const radius = document.getElementById("radius-select").value;
-  const response = await loadJson(`/api/stops/nearby?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&radius=${encodeURIComponent(radius)}&limit=100`, { features: [] });
-  const features = (response.features || []).filter((feature) => !state.selectedFeed || feature.properties?.feed_id === state.selectedFeed);
-  renderNearby(features);
+  renderNearby(nearbyStops(filteredStops(), lat, lon, radius, 100));
 }
 
 function renderNearby(features) {
@@ -227,12 +279,17 @@ function renderNearby(features) {
 
 async function init() {
   [state.stops, state.routes, state.catalog] = await Promise.all([
-    loadJson("/data/normalized/all/stops.geojson", { type: "FeatureCollection", features: [] }),
-    loadJson("/data/normalized/all/routes.geojson", { type: "FeatureCollection", features: [] }),
-    loadJson("/data/normalized/all/catalog.json", { feed_count: 0, feeds: [] }),
+    loadJson(`${DATA_BASE}/stops.geojson`, { type: "FeatureCollection", features: [] }),
+    loadJson(`${DATA_BASE}/routes.geojson`, { type: "FeatureCollection", features: [] }),
+    loadJson(`${DATA_BASE}/catalog.json`, { feed_count: 0, feeds: [] }),
   ]);
   populateFeedSelect();
   updateMetrics();
+  renderAttribution();
+  if (!(state.catalog.feed_count || (state.catalog.feeds || []).length)) {
+    document.getElementById("location-status").textContent =
+      "公開中の停留所データがまだありません。GitHub Actions の GTFS 更新後に表示されます。";
+  }
   initMap();
   document.getElementById("locate-button").addEventListener("click", locate);
   document.getElementById("radius-select").addEventListener("change", () => {

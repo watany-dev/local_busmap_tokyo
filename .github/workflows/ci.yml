@@ -38,3 +38,7 @@ jobs:
             --local-zip TEST=tests/fixtures/minimal_gtfs.zip
       - name: Check offline API surface
         run: PYTHONPATH=src python tools/smoke_api.py --data-dir data/sample-run
+      - name: Export and smoke static GitHub Pages site
+        run: |
+          python tools/export_pages.py --data-dir data/sample-run --out site
+          python tools/smoke_static.py --site-dir site
