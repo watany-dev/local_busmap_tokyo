@@ -102,11 +102,11 @@ www.city.itabashi.tokyo.jp   到達不可
 3. **フィード有効期限と実運行のずれ** — `feed_end_date` が未来でも路線再編が未反映の場合があります。
 4. **地図の外部依存** — MapLibre GL JS 5.6.1 を unpkg.com から、背景地図を OpenStreetMap 標準タイルから読み込みます。
    本番ではMapLibreを自前バンドルし、利用規約と負荷要件を満たすタイル事業者へ変更してください。
-5. **出典表示** — `web/index.html` はOpenStreetMapのみクレジットしています。CC BY 4.0 フィードの
-   出典表示が未実装です。実データを地図に載せる前に対応が必要です。
-6. **API性能** — 近傍検索は全停留所を毎回走査します。MVP規模では動きますが、空間インデックスかPostGISが必要です。
-7. **リアルタイム未実装** — VehiclePosition / TripUpdate / Alert は未統合です。
-8. **依存ロック** — コア依存はゼロ。PostGIS用 `psycopg` は範囲指定でありロックファイルではありません。
-9. **日次更新の書き込み権限** — `update-gtfs.yml` は `contents: write` でデフォルトブランチへ直接pushします。
+5. **出典表示** — 地図フッターはカタログの各フィード名とライセンスを表示します。CC BY 4.0 の要件を満たすため、実データ公開前に表記内容を確認してください。
+6. **GitHub Pages** — 静的サイトとして公開できます。Python API も WASM も使いません。設定手順は [README.md](../README.md) の「GitHub Pages で公開する」を参照してください。
+7. **API性能** — 近傍検索は全停留所を毎回走査します。MVP規模では動きますが、空間インデックスかPostGISが必要です。
+8. **リアルタイム未実装** — VehiclePosition / TripUpdate / Alert は未統合です。
+9. **依存ロック** — コア依存はゼロ。PostGIS用 `psycopg` は範囲指定でありロックファイルではありません。
+10. **日次更新の書き込み権限** — `update-gtfs.yml` は `contents: write` でデフォルトブランチへ直接pushします。
    ブランチ保護が有効な場合は失敗します。その場合はPR作成型へ変更してください。
-10. **合成データ** — `data/sample-run` はテスト専用です。停留所名に「テスト」が入ります。
+11. **合成データ** — `data/sample-run` はテスト専用です。停留所名に「テスト」が入ります。

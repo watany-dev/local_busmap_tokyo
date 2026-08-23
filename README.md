@@ -51,6 +51,8 @@ export PYTHONPATH="$PWD/src"
 | 自動テスト | `make test` | `python -m unittest discover -s tests -v` |
 | 合成GTFS取り込み | `make sample` | 下記参照 |
 | 合成データで地図起動 | `make serve-sample` | 下記参照 |
+| GitHub Pages用に静的書き出し | `make export-pages` | `python tools/export_pages.py --out site` |
+| 静的サイトを確認 | `make serve-pages` | `python -m http.server 8000 --directory site` |
 | Kバスのみ取得 | `make ingest-kbus` | `python -m tokyo_local_bus ingest --feed F005` |
 | 21フィード一括取得 | `make ingest` | `python -m tokyo_local_bus ingest --allow-partial` |
 | 実データで地図起動 | `make serve` | `python -m tokyo_local_bus serve` |
@@ -124,10 +126,42 @@ python -m tokyo_local_bus serve --host 127.0.0.1 --port 8000
 | `GET /api/health` | 稼働確認とフィード数 |
 | `GET /api/feeds` | 取り込み済みフィードのカタログ |
 | `GET /api/routes` | 路線LineStringのFeatureCollection |
-| `GET /api/stops/nearby?lat=&lon=&radius=&limit=` | 現在地から半径内の停留所を距離昇順で返す |
+| `GET /api/stops/nearby?lat=&lon=&radius=&limit=` | 現在地から半径内の停留所を距離昇順で返す（ローカルAPI） |
 
-近傍検索は半径10〜20,000m、件数1〜500件にクランプされます。現在はPythonのHaversine距離で
-全停留所を走査するMVP実装です。ブラウザの位置情報は `localhost` 以外ではHTTPSが必要です。
+近傍検索は半径10〜20,000m、件数1〜500件にクランプされます。サーバーAPIはPythonのHaversine距離で
+全停留所を走査するMVP実装です。GitHub Pages向けの地図は同じ計算をブラウザのJavaScriptで行います。
+ブラウザの位置情報は `localhost` 以外ではHTTPSが必要です。
+
+## GitHub Pages で公開する
+
+GitHub Pages は **静的ファイルだけ** を配信できます。Python サーバーも WASM も不要です。
+
+- 地図は従来どおり MapLibre GL JS（ブラウザ）
+- 停留所・路線は正規化済み GeoJSON を同じサイトから読む
+- 「現在地から探す」は読み込み済み停留所への Haversine 計算（`web/app.js`）
+- WASM / Pyodide は、21フィード規模の距離計算には過剰で読み込みも重いため使いません
+
+公開手順:
+
+1. リポジトリの **Settings → Pages → Build and deployment → Source** を **GitHub Actions** にする
+2. デフォルトブランチへこの変更をマージする（または Actions から `Deploy GitHub Pages` を手動実行）
+3. サイト URL: `https://<user>.github.io/local_busmap_tokyo/`
+
+`.github/workflows/pages.yml` は `web/` と `data/normalized/all/` を `site/` に組み立ててデプロイします。
+カタログが空のときは、デプロイ前に GTFS 取得を1回試みます（失敗しても空の地図は公開されます）。
+日次の `update-gtfs.yml` が GeoJSON をコミットすると、Pages ワークフローが再デプロイします。
+
+手元で静的サイトだけ確認する場合:
+
+```bash
+make export-pages
+make serve-pages          # http://127.0.0.1:8000
+```
+
+プロジェクトサイト（`/local_busmap_tokyo/`）でも動くよう、HTML/JS の参照はルート絶対パスではなく相対パスです。
+GitHub Pages は HTTPS のため、ブラウザの位置情報も使えます。
+
+CC BY 4.0 フィードの出典は地図フッターにカタログから表示します。GTFS の ZIP 本体は公開しません。
 
 ## PostGIS（任意）
 
@@ -156,6 +190,7 @@ scripts/load_postgis.py            GeoJSONからPostGISへの投入
 data/                              実行時データ（raw / extracted / state / normalized）
 .github/workflows/ci.yml           テストとオフラインE2E
 .github/workflows/update-gtfs.yml  日次GTFS更新（09:15 JST）
+.github/workflows/pages.yml        GitHub Pagesへ静的サイトをデプロイ
 ```
 
 ## データ処理の設計判断

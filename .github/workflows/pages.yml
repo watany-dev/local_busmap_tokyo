@@ -1,0 +1,56 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ingest GTFS when published catalog is empty
+        continue-on-error: true
+        run: |
+          if python -c 'import json,pathlib,sys; p=pathlib.Path("data/normalized/all/catalog.json"); sys.exit(0 if p.is_file() and json.loads(p.read_text(encoding="utf-8")).get("feed_count") else 1)'; then
+            echo "Published catalog already has feeds"
+          else
+            PYTHONPATH=src python -m tokyo_local_bus ingest \
+              --allow-partial \
+              --date "$(TZ=Asia/Tokyo date +%F)"
+          fi
+      - name: Export static site
+        run: python tools/export_pages.py --out site
+      - name: Smoke static site
+        run: python tools/smoke_static.py --site-dir site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,7 +1,7 @@
 PYTHON ?= python3
 ENV = PYTHONPATH=src
 
-.PHONY: help verify config test sample serve-sample ingest ingest-kbus serve postgis-up postgis-load clean
+.PHONY: help verify config test sample serve-sample ingest ingest-kbus serve export-pages serve-pages postgis-up postgis-load clean
 
 help:
 	@echo "verify        リポジトリ前提条件の検証"
@@ -12,6 +12,8 @@ help:
 	@echo "ingest        21フィード一括取得（ネットワーク必要）"
 	@echo "ingest-kbus   北区KバスF005のみ取得（ネットワーク必要）"
 	@echo "serve         実データで地図とAPIを起動"
+	@echo "export-pages  GitHub Pages向け静的サイトを site/ に書き出す"
+	@echo "serve-pages   静的サイトを http://127.0.0.1:8000 で確認"
 	@echo "postgis-up    PostGISコンテナ起動"
 	@echo "postgis-load  GeoJSONをPostGISへ投入"
 	@echo "clean         取得・正規化データを削除"
@@ -46,6 +48,12 @@ ingest-kbus:
 serve:
 	$(ENV) $(PYTHON) -m tokyo_local_bus serve --host 127.0.0.1 --port 8000
 
+export-pages:
+	$(PYTHON) tools/export_pages.py --out site
+
+serve-pages: export-pages
+	$(PYTHON) -m http.server 8000 --directory site
+
 postgis-up:
 	docker compose up -d postgis
 
@@ -54,4 +62,4 @@ postgis-load:
 	  $(PYTHON) scripts/load_postgis.py
 
 clean:
-	rm -rf data/raw/* data/extracted/* data/state/*.json data/normalized/* data/sample-run
+	rm -rf data/raw/* data/extracted/* data/state/*.json data/normalized/* data/sample-run site

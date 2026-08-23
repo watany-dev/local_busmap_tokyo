@@ -11,6 +11,10 @@ from urllib.parse import parse_qs, unquote, urlparse
 
 
 EARTH_RADIUS_M = 6_371_008.8
+NEARBY_RADIUS_MIN_M = 10.0
+NEARBY_RADIUS_MAX_M = 20_000.0
+NEARBY_LIMIT_MIN = 1
+NEARBY_LIMIT_MAX = 500
 
 
 def haversine_m(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
@@ -23,6 +27,43 @@ def haversine_m(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
         + math.cos(phi1) * math.cos(phi2) * math.sin(delta_lambda / 2) ** 2
     )
     return EARTH_RADIUS_M * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+
+def clamp_nearby_params(radius_m: float, limit: int) -> tuple[float, int]:
+    return (
+        min(max(radius_m, NEARBY_RADIUS_MIN_M), NEARBY_RADIUS_MAX_M),
+        min(max(limit, NEARBY_LIMIT_MIN), NEARBY_LIMIT_MAX),
+    )
+
+
+def nearby_stops(
+    collection: dict[str, Any],
+    *,
+    lat: float,
+    lon: float,
+    radius_m: float,
+    limit: int,
+) -> dict[str, Any]:
+    """現在地から半径内の停留所を距離昇順で返す。GitHub Pages用JSと同じ計算。"""
+    radius_m, limit = clamp_nearby_params(radius_m, limit)
+    matches: list[dict[str, Any]] = []
+    for feature in collection.get("features", []):
+        try:
+            stop_lon, stop_lat = feature["geometry"]["coordinates"]
+            distance = haversine_m(lat, lon, float(stop_lat), float(stop_lon))
+        except (KeyError, TypeError, ValueError):
+            continue
+        if distance <= radius_m:
+            copied = dict(feature)
+            copied["properties"] = dict(feature.get("properties") or {})
+            copied["properties"]["distance_m"] = round(distance, 1)
+            matches.append(copied)
+    matches.sort(key=lambda feature: feature["properties"]["distance_m"])
+    return {
+        "type": "FeatureCollection",
+        "query": {"lat": lat, "lon": lon, "radius_m": radius_m, "limit": limit},
+        "features": matches[:limit],
+    }
 
 
 def _load_json(path: Path, fallback: Any) -> Any:
@@ -85,8 +126,8 @@ def create_handler(web_dir: Path, data_dir: Path) -> type[BaseHTTPRequestHandler
             try:
                 lat = float(query["lat"][0])
                 lon = float(query["lon"][0])
-                radius_m = min(max(float(query.get("radius", ["800"])[0]), 10), 20_000)
-                limit = min(max(int(query.get("limit", ["50"])[0]), 1), 500)
+                radius_m = float(query.get("radius", ["800"])[0])
+                limit = int(query.get("limit", ["50"])[0])
             except (KeyError, IndexError, ValueError):
                 self._json(
                     HTTPStatus.BAD_REQUEST,
@@ -101,26 +142,15 @@ def create_handler(web_dir: Path, data_dir: Path) -> type[BaseHTTPRequestHandler
                 data_root / "normalized/all/stops.geojson",
                 {"type": "FeatureCollection", "features": []},
             )
-            matches: list[dict[str, Any]] = []
-            for feature in collection.get("features", []):
-                try:
-                    stop_lon, stop_lat = feature["geometry"]["coordinates"]
-                    distance = haversine_m(lat, lon, float(stop_lat), float(stop_lon))
-                except (KeyError, TypeError, ValueError):
-                    continue
-                if distance <= radius_m:
-                    copied = dict(feature)
-                    copied["properties"] = dict(feature.get("properties") or {})
-                    copied["properties"]["distance_m"] = round(distance, 1)
-                    matches.append(copied)
-            matches.sort(key=lambda feature: feature["properties"]["distance_m"])
             self._json(
                 HTTPStatus.OK,
-                {
-                    "type": "FeatureCollection",
-                    "query": {"lat": lat, "lon": lon, "radius_m": radius_m, "limit": limit},
-                    "features": matches[:limit],
-                },
+                nearby_stops(
+                    collection,
+                    lat=lat,
+                    lon=lon,
+                    radius_m=radius_m,
+                    limit=limit,
+                ),
             )
 
         def _handle_static(self, path: str) -> None:
