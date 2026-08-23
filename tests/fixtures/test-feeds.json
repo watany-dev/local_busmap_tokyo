@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "feeds": [
+    {
+      "id": "TEST",
+      "slug": "synthetic-test-feed",
+      "municipality": "テスト区",
+      "service_name": "テスト循環",
+      "url": "https://example.invalid/feed.zip",
+      "license": "TEST ONLY",
+      "priority": "A"
+    }
+  ]
+}

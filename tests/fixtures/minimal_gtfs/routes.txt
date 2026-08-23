@@ -1,0 +1,2 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
+R1,TEST,T1,テスト循環,3,2874A6,FFFFFF

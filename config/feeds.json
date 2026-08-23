@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-22T00:00:00+09:00",
+  "scope": "東京都内の都営バス以外の自治体・地域交通。MVP優先度Aの静的GTFS。",
+  "feeds": [
+    {
+      "id": "F020",
+      "slug": "miyake-village-bus",
+      "municipality": "三宅村",
+      "service_name": "村営バス",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/MiyakeVill/AllLine.zip?date=current",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F005",
+      "slug": "kita-kbus",
+      "municipality": "北区",
+      "service_name": "Kバス",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/KitaAllLines.zip?date=current",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F021",
+      "slug": "chiyoda-kazaguruma",
+      "municipality": "千代田区",
+      "service_name": "風ぐるま",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/Chiyoda_ALLLINES.zip?date=current",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F022",
+      "slug": "taito-megurin",
+      "municipality": "台東区",
+      "service_name": "めぐりん",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/TokyoTaitoCity/megurinCCBY40.zip?date=current",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F010",
+      "slug": "kokubunji-bunbus",
+      "municipality": "国分寺市",
+      "service_name": "ぶんバス",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/KokubunjiCity/kokubunji_city_bunbus.zip?date=current",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F012",
+      "slug": "kunitachi-aoyagikko",
+      "municipality": "国立市",
+      "service_name": "あおやぎっこ",
+      "url": "https://api.gtfs-data.jp/v2/organizations/kunitachicity/feeds/aoyagikko/files/feed.zip",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F011",
+      "slug": "kunitachi-kunikko",
+      "municipality": "国立市",
+      "service_name": "くにっこ",
+      "url": "https://api.gtfs-data.jp/v2/organizations/kunitachicity/feeds/kunikko/files/feed.zip",
+      "license": "CC0 1.0",
+      "priority": "A"
+    },
+    {
+      "id": "F023",
+      "slug": "ogasawara-village-bus",
+      "municipality": "小笠原村",
+      "service_name": "村営バス",
+      "url": "https://api.gtfs-data.jp/v2/organizations/ogasawaravillage/feeds/o/files/feed.zip",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F003",
+      "slug": "bunkyo-b-guru",
+      "municipality": "文京区",
+      "service_name": "Bーぐる",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/AllLines.zip?date=current",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F025",
+      "slug": "suginami-green-slow-mobility",
+      "municipality": "杉並区",
+      "service_name": "グリーンスローモビリティ",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/TokyoSuginamiCity/GreenSlowMobility.zip?date=current",
+      "license": "CC BY 4.0",
+      "priority": "A",
+      "realtime": {
+        "vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_TokyoSuginamiCity_GreenSlowMobility_vehicle"
+      }
+    },
+    {
+      "id": "F026",
+      "slug": "higashiyamato-chokobus",
+      "municipality": "東大和市",
+      "service_name": "ちょこバス",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/HigashiyamatoCity/AllLines_CC0.zip?date=current",
+      "license": "CC0 1.0",
+      "priority": "A"
+    },
+    {
+      "id": "F015",
+      "slug": "higashimurayama-green-bus",
+      "municipality": "東村山市",
+      "service_name": "グリーンバス",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/HigashiMurayamaCity/Alllines.zip?date=current",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F008",
+      "slug": "itabashi-rinringo",
+      "municipality": "板橋区",
+      "service_name": "りんりんGO",
+      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/006/732/rinringo_gtfs_20260401asshuku.zip",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F013",
+      "slug": "kiyose-kiyobus",
+      "municipality": "清瀬市",
+      "service_name": "きよバス",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/KiyoseCity/KiyoBus.zip?date=current",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F001",
+      "slug": "shibuya-hachiko-bus",
+      "municipality": "渋谷区",
+      "service_name": "ハチ公バス",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/185d0dbc980443b8b60e135349e2ae5e/data",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F018",
+      "slug": "mizuho-community-bus",
+      "municipality": "瑞穂町",
+      "service_name": "コミュニティバス",
+      "url": "https://api.gtfs-data.jp/v2/organizations/mizuhotown/feeds/communitybus/files/feed.zip",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F016",
+      "slug": "machida-community-bus",
+      "municipality": "町田市",
+      "service_name": "市民バス・コミュニティバス",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/MachidaCity/AllLines.zip?date=current",
+      "license": "CC0 1.0",
+      "priority": "A"
+    },
+    {
+      "id": "F028",
+      "slug": "kozushima-village-bus",
+      "municipality": "神津島村",
+      "service_name": "村営バス",
+      "url": "https://api.gtfs-data.jp/v2/organizations/kozushimavillage/feeds/kozushimavillagebus/files/feed.zip",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F014",
+      "slug": "tachikawa-kururin",
+      "municipality": "立川市",
+      "service_name": "くるりん",
+      "url": "https://api.gtfs-data.jp/v2/organizations/tachikawacity/feeds/kururinbus/files/feed.zip",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F029",
+      "slug": "arakawa-sakura",
+      "municipality": "荒川区",
+      "service_name": "コミュニティバスさくら",
+      "url": "https://api.gtfs-data.jp/v2/organizations/arakawacity/feeds/sakura/files/feed.zip",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    },
+    {
+      "id": "F030",
+      "slug": "nishitokyo-hanabus",
+      "municipality": "西東京市",
+      "service_name": "はなバス",
+      "url": "https://api-public.odpt.org/api/v4/files/odpt/NishitokyoCity/AllLines.zip?date=current",
+      "license": "CC BY 4.0",
+      "priority": "A"
+    }
+  ]
+}

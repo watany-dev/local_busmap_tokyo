@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>東京ローカルバス・マップ</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <header>
+        <p class="eyebrow">TOKYO LOCAL TRANSIT</p>
+        <h1>東京ローカルバス・マップ</h1>
+        <p class="description">都営バス以外の自治体・地域交通を、現在地から探すためのMVPです。</p>
+      </header>
+
+      <section class="controls">
+        <button id="locate-button" type="button">現在地から探す</button>
+        <label>
+          検索半径
+          <select id="radius-select">
+            <option value="400">400 m</option>
+            <option value="800" selected>800 m</option>
+            <option value="1500">1.5 km</option>
+            <option value="3000">3 km</option>
+          </select>
+        </label>
+        <label>
+          サービス
+          <select id="feed-select">
+            <option value="">すべて</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="status-panel" aria-live="polite">
+        <div class="metric"><span id="feed-count">0</span><small>フィード</small></div>
+        <div class="metric"><span id="stop-count">0</span><small>停留所</small></div>
+        <div class="metric"><span id="route-count">0</span><small>路線形状</small></div>
+      </section>
+
+      <section>
+        <h2>近くの停留所</h2>
+        <p id="location-status" class="muted">位置情報を取得すると、近い順に表示します。</p>
+        <ol id="nearby-list"></ol>
+      </section>
+
+      <footer>
+        <p>地図: © OpenStreetMap contributors。運行判断には各自治体・事業者の公式情報を使用してください。</p>
+      </footer>
+    </aside>
+    <main id="map" aria-label="ローカルバス地図"></main>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.js"></script>
+  <script src="/app.js" defer></script>
+</body>
+</html>

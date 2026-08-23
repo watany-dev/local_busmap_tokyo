@@ -1,0 +1,20 @@
+{
+  "built_at": "2026-08-22T13:00:00+09:00",
+  "scope": "Tokyo non-Toei local bus GTFS ingestion MVP",
+  "configured_feeds": 21,
+  "externally_verified_feeds": 8,
+  "direct_live_downloads_in_build_environment": 0,
+  "automated_tests": {
+    "total": 5,
+    "passed": 5
+  },
+  "synthetic_end_to_end_result": {
+    "status": "ok",
+    "stops": 3,
+    "route_geometries": 1,
+    "api_health_http_status": 200,
+    "nearby_api_http_status": 200,
+    "index_http_status": 200
+  },
+  "network_note": "The build environment could not connect directly to GTFS distribution hosts. Live ZIP files are not bundled."
+}

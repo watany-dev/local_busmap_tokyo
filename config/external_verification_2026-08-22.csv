@@ -1,0 +1,9 @@
+feed_id,source_name,status,downloaded_at,resolved_url,size_bytes,feed_start_date,feed_end_date,feed_version,has_shapes,required_files_present
+F020,miyake-bus,ok,2026-08-22T00:16:20.921Z,https://api-public.odpt.org/api/v4/files/odpt/MiyakeVill/AllLine.zip?date=20250929,106023,20250929,20261231,2019/07/01改正-見える化ver2.6e,false,true
+F005,kita-bus,ok,2026-08-22T00:16:19.186Z,https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/KitaAllLines.zip?date=20251220,33202,20251220,20261231,20251220_K001,true,true
+F021,chiyoda-bus,ok,2026-08-22T00:16:13.110Z,https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/Chiyoda_ALLLINES.zip?date=20260601,29964,20260602,20271231,Kaze_20260602,true,true
+F022,taito-c-bus,ok,2026-08-22T00:16:27.193Z,https://api-public.odpt.org/api/v4/files/odpt/TokyoTaitoCity/megurinCCBY40.zip?date=20251028,78030,20250810,20261231,20250801_MEG001,true,true
+F003,bunkyo-c-bus,ok,2026-08-22T00:16:12.899Z,https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/AllLines.zip?date=20260401,49303,20260401,20271231,B_20260401_001,true,true
+F025,suginami-gsm,ok,2026-08-22T00:16:26.848Z,https://api-public.odpt.org/api/v4/files/odpt/TokyoSuginamiCity/GreenSlowMobility.zip?date=20260601,4576,20260724,20280630,Suginami_City_Guri_20260724,true,true
+F008,itabashi-rin2-bus,ok,2026-08-22T00:16:15.216Z,https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/006/732/rinringo_gtfs_20260401asshuku.zip,14806,20260401,20280331,202604-202803-2026年05月11日 18時13分18秒-西沢ツールver8.31,true,true
+F001,hachiko-bus,ok,2026-08-22T00:16:14.673Z,https://www.arcgis.com/sharing/rest/content/items/185d0dbc980443b8b60e135349e2ae5e/data,73419,20240617,20300331,2024/06/01改正-見える化ver2.6e,false,true
