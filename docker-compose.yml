@@ -1,0 +1,18 @@
+services:
+  postgis:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: localbus
+      POSTGRES_USER: localbus
+      POSTGRES_PASSWORD: localbus
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgis-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U localbus -d localbus"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+volumes:
+  postgis-data:

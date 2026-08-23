@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone
+TEST,テスト交通,https://example.invalid/,Asia/Tokyo

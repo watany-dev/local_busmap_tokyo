@@ -1,0 +1,311 @@
+{
+  "algorithm": "SHA-256",
+  "file_count": 61,
+  "files": [
+    {
+      "path": ".github/workflows/update-gtfs.yml",
+      "size_bytes": 1446,
+      "sha256": "29c35777e1fb61c1c2cbc6c9fd964ec5269a19caaff756f8033165976787237c"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 120,
+      "sha256": "bb808a1e3507a395ffc63728978f61f3ca44723476be9a0deb548f8635c0d2b7"
+    },
+    {
+      "path": "BUILD_INFO.json",
+      "size_bytes": 607,
+      "sha256": "432be889256c53079471d7cc30ef7fdb6712e850fc5ab2193c4699f10def0a7f"
+    },
+    {
+      "path": "Makefile",
+      "size_bytes": 854,
+      "sha256": "2de41c627f18b7f8a83fab16c63fa4004452fd501c9335a8885de852760c5a37"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 7065,
+      "sha256": "543e6d449e586269b199f23f7a3667427d1d6e2ce43466b58e47862ddb9440ea"
+    },
+    {
+      "path": "RUN_RESULTS.md",
+      "size_bytes": 517,
+      "sha256": "e42ff029d5819b8b772f2acb599f398d9e6fb7e4da0e93a7838f62384abd3d23"
+    },
+    {
+      "path": "config/external_verification_2026-08-22.csv",
+      "size_bytes": 1821,
+      "sha256": "78d4bcb66967f13e48421faff76f4679352ae8aefc612aab4c718dcc74a9d02d"
+    },
+    {
+      "path": "config/external_verification_2026-08-22.json",
+      "size_bytes": 4895,
+      "sha256": "3b1ac24f43699829390a4f21e62110c0eda984c669efb811aa2187576d615e55"
+    },
+    {
+      "path": "config/feeds.json",
+      "size_bytes": 6828,
+      "sha256": "3d0d68fc752bf94cd6389e18881e710c9e200eaff4f6de50f35e5e1c77ed5557"
+    },
+    {
+      "path": "data/normalized/all/catalog.json",
+      "size_bytes": 48,
+      "sha256": "9e8d6c96f01ed0f7d3d3b8b8bd422682d10e11619454ec68575804424dbc4925"
+    },
+    {
+      "path": "data/normalized/all/routes.geojson",
+      "size_bytes": 75,
+      "sha256": "a3b9671bd26f719472a2fd049f871ac0e2b220ff9ea51fe47c62f2e761927bfe"
+    },
+    {
+      "path": "data/normalized/all/stops.geojson",
+      "size_bytes": 74,
+      "sha256": "84c75724e2684b08228c1e02cdfd539a89d05f5469b945b344215f1d21b8ce1a"
+    },
+    {
+      "path": "data/raw/.gitkeep",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/sample-run/extracted/TEST/agency.txt",
+      "size_bytes": 106,
+      "sha256": "9d019e7919a28c8c9737b69d272d8d50faa78fb507fb49e290940bd0ee373b51"
+    },
+    {
+      "path": "data/sample-run/extracted/TEST/calendar.txt",
+      "size_bytes": 126,
+      "sha256": "f3fea0b5ce644a14ea52b45eed711c97472bdccc889fb39a9baee3cbba038fa0"
+    },
+    {
+      "path": "data/sample-run/extracted/TEST/calendar_dates.txt",
+      "size_bytes": 31,
+      "sha256": "aaa66bee57e81ca0cd63d4afe576f993aba0441428a79cf6fe5c58721e39421f"
+    },
+    {
+      "path": "data/sample-run/extracted/TEST/feed_info.txt",
+      "size_bytes": 161,
+      "sha256": "ca255219b5658c9abce78969aa0eb858a6b53b20ae13d896073dfcebd443c3cf"
+    },
+    {
+      "path": "data/sample-run/extracted/TEST/routes.txt",
+      "size_bytes": 135,
+      "sha256": "421bad7aa87c9465b00af2305565ccc377bc6e3bdb9480e52490360ee3b572c8"
+    },
+    {
+      "path": "data/sample-run/extracted/TEST/shapes.txt",
+      "size_bytes": 168,
+      "sha256": "8fc66932c4c66de64fc9cf1377e2af6d03feaba40b12d67e00b07cd372a1fa93"
+    },
+    {
+      "path": "data/sample-run/extracted/TEST/stop_times.txt",
+      "size_bytes": 136,
+      "sha256": "94d958f2d311591ddbdbeb8853fb51ebe6948263e8cf5cdb17f65a224a83dbde"
+    },
+    {
+      "path": "data/sample-run/extracted/TEST/stops.txt",
+      "size_bytes": 176,
+      "sha256": "d613866133da01c883d7399e296b33b3f3b64a4abff2c172452d881476ea0f2b"
+    },
+    {
+      "path": "data/sample-run/extracted/TEST/trips.txt",
+      "size_bytes": 98,
+      "sha256": "b592e3ea8490641d72cc5ebc36f4848c2a801107188b1f6e73b211a09f388e31"
+    },
+    {
+      "path": "data/sample-run/normalized/all/catalog.json",
+      "size_bytes": 559,
+      "sha256": "7fae04727eaf4a1b0562bea2acc74c92e866d5cb361b9265a56661c349834d56"
+    },
+    {
+      "path": "data/sample-run/normalized/all/routes.geojson",
+      "size_bytes": 657,
+      "sha256": "6520074ffe69de4e43041b4070034f3ab6267140ae458551f8013e441c92b363"
+    },
+    {
+      "path": "data/sample-run/normalized/all/stops.geojson",
+      "size_bytes": 1369,
+      "sha256": "9766b7d8231db9844b4ac6c635dc61068c7198277ed4d2b12661b3c916f037a2"
+    },
+    {
+      "path": "data/sample-run/normalized/synthetic-test-feed/routes.geojson",
+      "size_bytes": 661,
+      "sha256": "f8e09dee528417355b5aa234a34001e27fc7ffb1db0776ded988f26961b7f9f2"
+    },
+    {
+      "path": "data/sample-run/normalized/synthetic-test-feed/stops.geojson",
+      "size_bytes": 1373,
+      "sha256": "54e0655f8035e6de2b4388df151239c912f18bd14be5bdbbc88a22704083fe81"
+    },
+    {
+      "path": "data/sample-run/normalized/synthetic-test-feed/validation.json",
+      "size_bytes": 829,
+      "sha256": "d37fab0b8fa553315f161b2a64199d0b7b0fa5359aed188c238779796d018888"
+    },
+    {
+      "path": "data/sample-run/raw/TEST/feed.zip",
+      "size_bytes": 2217,
+      "sha256": "680e981c6a8e1fe48301c121327d0169a729a3abdd272d9422c191ea12be2635"
+    },
+    {
+      "path": "data/sample-run/state/TEST.download.json",
+      "size_bytes": 470,
+      "sha256": "92f2564f2c44cb79333d029be0fcc9f4328f212b180e2be49603034131c634da"
+    },
+    {
+      "path": "data/sample-run/state/latest-run.json",
+      "size_bytes": 2170,
+      "sha256": "1565e274d6505f7a12b8ae1a1344ebe92d48ca71700cd2e29b1327b494277041"
+    },
+    {
+      "path": "data/state/.gitkeep",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docker-compose.yml",
+      "size_bytes": 415,
+      "sha256": "4aaf5a46205f19835d3fc9c321d49ec6f65302c104c122c11e5a539fb9f23ddd"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 443,
+      "sha256": "4ce6f5b8f17c0d7cfa46ca90a397717e906ad9b1b1bc8316f277f1b5dd28e097"
+    },
+    {
+      "path": "requirements-postgis.txt",
+      "size_bytes": 24,
+      "sha256": "bfaaa83e718f1e325d7e34ab54f7ff4b4827373de39b3e26f82e1224ff518c05"
+    },
+    {
+      "path": "scripts/load_postgis.py",
+      "size_bytes": 4895,
+      "sha256": "723e9ba8442e8e8db9c25f224e82ef3e875a5a283a4b743653da01209504f71f"
+    },
+    {
+      "path": "sql/schema.sql",
+      "size_bytes": 1649,
+      "sha256": "9fdf58e9dcd05e43faa7c63bccab709b817119c59b98ef6eee70346fdb084877"
+    },
+    {
+      "path": "src/tokyo_local_bus/__init__.py",
+      "size_bytes": 114,
+      "sha256": "ef88121778de91cd3c7681d018486ee456663f0aeaaf979e6b074e9ab212af4d"
+    },
+    {
+      "path": "src/tokyo_local_bus/__main__.py",
+      "size_bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "src/tokyo_local_bus/cli.py",
+      "size_bytes": 5079,
+      "sha256": "372d35a5157a564c6dde5f80188471dafe81f799923f3bf2a0e92f7c33f66ff5"
+    },
+    {
+      "path": "src/tokyo_local_bus/config.py",
+      "size_bytes": 3650,
+      "sha256": "f1297993b517df895f6f0f90bbf20bc03a80c9ede02aede959875f0cf73c4218"
+    },
+    {
+      "path": "src/tokyo_local_bus/downloader.py",
+      "size_bytes": 8060,
+      "sha256": "e5ee3672b35d4f58d38793d517bb47a95236350d94a47fde0930df4d87033cf8"
+    },
+    {
+      "path": "src/tokyo_local_bus/geojson.py",
+      "size_bytes": 9003,
+      "sha256": "f64dc89c3c390e5424dac5bc5dfe85c3ebf1ab5f8d9265d487f0ba9c63ff4de5"
+    },
+    {
+      "path": "src/tokyo_local_bus/gtfs.py",
+      "size_bytes": 14485,
+      "sha256": "61ad88ec5ee281f4ea09b64a91ab483acffb20fc741c2d5b67ce7ef3f21abc6a"
+    },
+    {
+      "path": "src/tokyo_local_bus/pipeline.py",
+      "size_bytes": 8043,
+      "sha256": "06227b730d81507813b12959dcb55faf23a9b9220420352c2c9993704b72f774"
+    },
+    {
+      "path": "src/tokyo_local_bus/server.py",
+      "size_bytes": 7048,
+      "sha256": "dee2ad39abab6ef6563074a353b01968bf915eb81e65ab2f076af39a1454e649"
+    },
+    {
+      "path": "tests/fixtures/minimal_gtfs/agency.txt",
+      "size_bytes": 106,
+      "sha256": "9d019e7919a28c8c9737b69d272d8d50faa78fb507fb49e290940bd0ee373b51"
+    },
+    {
+      "path": "tests/fixtures/minimal_gtfs/calendar.txt",
+      "size_bytes": 126,
+      "sha256": "f3fea0b5ce644a14ea52b45eed711c97472bdccc889fb39a9baee3cbba038fa0"
+    },
+    {
+      "path": "tests/fixtures/minimal_gtfs/calendar_dates.txt",
+      "size_bytes": 31,
+      "sha256": "aaa66bee57e81ca0cd63d4afe576f993aba0441428a79cf6fe5c58721e39421f"
+    },
+    {
+      "path": "tests/fixtures/minimal_gtfs/feed_info.txt",
+      "size_bytes": 161,
+      "sha256": "ca255219b5658c9abce78969aa0eb858a6b53b20ae13d896073dfcebd443c3cf"
+    },
+    {
+      "path": "tests/fixtures/minimal_gtfs/routes.txt",
+      "size_bytes": 135,
+      "sha256": "421bad7aa87c9465b00af2305565ccc377bc6e3bdb9480e52490360ee3b572c8"
+    },
+    {
+      "path": "tests/fixtures/minimal_gtfs/shapes.txt",
+      "size_bytes": 168,
+      "sha256": "8fc66932c4c66de64fc9cf1377e2af6d03feaba40b12d67e00b07cd372a1fa93"
+    },
+    {
+      "path": "tests/fixtures/minimal_gtfs/stop_times.txt",
+      "size_bytes": 136,
+      "sha256": "94d958f2d311591ddbdbeb8853fb51ebe6948263e8cf5cdb17f65a224a83dbde"
+    },
+    {
+      "path": "tests/fixtures/minimal_gtfs/stops.txt",
+      "size_bytes": 176,
+      "sha256": "d613866133da01c883d7399e296b33b3f3b64a4abff2c172452d881476ea0f2b"
+    },
+    {
+      "path": "tests/fixtures/minimal_gtfs/trips.txt",
+      "size_bytes": 98,
+      "sha256": "b592e3ea8490641d72cc5ebc36f4848c2a801107188b1f6e73b211a09f388e31"
+    },
+    {
+      "path": "tests/fixtures/minimal_gtfs.zip",
+      "size_bytes": 2217,
+      "sha256": "680e981c6a8e1fe48301c121327d0169a729a3abdd272d9422c191ea12be2635"
+    },
+    {
+      "path": "tests/fixtures/test-feeds.json",
+      "size_bytes": 293,
+      "sha256": "3508bd2f3a72b05cdbf0aebdc9f851cccb3456cf4393831a8fff6de72a4cf8ed"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "size_bytes": 4050,
+      "sha256": "65f6e6e587620b2bea78c5653486c2902589273e314474a8eefb6c175ad30d41"
+    },
+    {
+      "path": "web/app.js",
+      "size_bytes": 8907,
+      "sha256": "cf722c4a06d22a6d83775f73db8126de0a9301a6f4fd87c016fc4b4ff243c6f5"
+    },
+    {
+      "path": "web/index.html",
+      "size_bytes": 2219,
+      "sha256": "554eba7629068c4a438818b380b44fedf48e23637b94f69c020dcec1bf714254"
+    },
+    {
+      "path": "web/styles.css",
+      "size_bytes": 2497,
+      "sha256": "87403b9990d0b255422e45fc9668047613b487b802613f8c860d47bccaffb972"
+    }
+  ]
+}

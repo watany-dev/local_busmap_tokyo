@@ -1,0 +1,52 @@
+name: Update Tokyo local bus GTFS
+
+on:
+  schedule:
+    - cron: "15 0 * * *" # 09:15 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tokyo-local-bus-gtfs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify repository prerequisites
+        run: python tools/verify_repo.py
+      - name: Validate feed catalog
+        run: PYTHONPATH=src python -m tokyo_local_bus validate-config
+      - name: Download, validate and normalize
+        run: PYTHONPATH=src python -m tokyo_local_bus ingest --allow-partial --date "$(TZ=Asia/Tokyo date +%F)"
+      - name: Run tests
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Smoke test API against normalized data
+        run: python tools/smoke_api.py --data-dir data
+      - name: Upload run report and normalized data
+        uses: actions/upload-artifact@v4
+        with:
+          name: tokyo-local-bus-data
+          path: |
+            data/state/latest-run.json
+            data/normalized/
+          retention-days: 30
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/state data/normalized
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "chore(data): update local bus GTFS"
+            git push
+          fi

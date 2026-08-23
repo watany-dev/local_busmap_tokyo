@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+テスト交通,https://example.invalid/,ja,20260101,20271231,test-1
