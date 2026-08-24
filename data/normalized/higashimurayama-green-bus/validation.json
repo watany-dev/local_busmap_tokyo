@@ -2,7 +2,7 @@
   "feed_id": "F015",
   "municipality": "東村山市",
   "service_name": "グリーンバス",
-  "service_date": "2026-08-23",
+  "service_date": "2026-08-24",
   "status": "valid",
   "feed_start_date": "2026-04-01",
   "feed_end_date": "2028-03-31",
@@ -23,11 +23,11 @@
     "trips.txt": 155
   },
   "active_service_ids": [
-    "土日祝",
-    "日祝",
+    "平日",
+    "平日土曜",
     "毎日"
   ],
-  "active_trip_count": 87,
+  "active_trip_count": 98,
   "has_shapes": false,
   "files": [
     "agency.txt",
