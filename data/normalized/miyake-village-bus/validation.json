@@ -2,7 +2,7 @@
   "feed_id": "F020",
   "municipality": "三宅村",
   "service_name": "村営バス",
-  "service_date": "2026-08-28",
+  "service_date": "2026-08-29",
   "status": "valid",
   "feed_start_date": "2025-09-29",
   "feed_end_date": "2026-12-31",
@@ -22,13 +22,13 @@
     "trips.txt": 34
   },
   "active_service_ids": [
+    "休日",
+    "休日三池港",
+    "休日伊ヶ谷港",
+    "休日錆ヶ浜港",
     "全日三池港船連絡バス",
     "全日伊ヶ谷港船連絡バス",
-    "全日錆ヶ浜港船連絡バス",
-    "平日",
-    "平日三池港",
-    "平日伊ヶ谷港",
-    "平日錆ヶ浜港"
+    "全日錆ヶ浜港船連絡バス"
   ],
   "active_trip_count": 20,
   "has_shapes": false,
