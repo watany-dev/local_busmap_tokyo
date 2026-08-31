@@ -2,7 +2,7 @@
   "feed_id": "F016",
   "municipality": "町田市",
   "service_name": "市民バス・コミュニティバス",
-  "service_date": "2026-08-30",
+  "service_date": "2026-08-31",
   "status": "valid",
   "feed_start_date": "2020-12-01",
   "feed_end_date": "2028-03-31",
@@ -24,10 +24,12 @@
     "trips.txt": 185
   },
   "active_service_ids": [
-    "S2",
-    "S3"
+    "S1",
+    "S3",
+    "S4",
+    "S5"
   ],
-  "active_trip_count": 87,
+  "active_trip_count": 158,
   "has_shapes": false,
   "files": [
     "agency.txt",

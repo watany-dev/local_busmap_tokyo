@@ -2,7 +2,7 @@
   "feed_id": "F029",
   "municipality": "荒川区",
   "service_name": "コミュニティバスさくら",
-  "service_date": "2026-08-30",
+  "service_date": "2026-08-31",
   "status": "valid",
   "feed_start_date": "2026-03-01",
   "feed_end_date": "2027-03-21",
@@ -24,7 +24,7 @@
     "trips.txt": 34
   },
   "active_service_ids": [
-    "土休日",
+    "平日",
     "毎日"
   ],
   "active_trip_count": 28,

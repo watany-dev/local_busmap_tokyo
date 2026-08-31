@@ -2,7 +2,7 @@
   "feed_id": "F012",
   "municipality": "国立市",
   "service_name": "あおやぎっこ",
-  "service_date": "2026-08-30",
+  "service_date": "2026-08-31",
   "status": "valid",
   "feed_start_date": "2026-01-13",
   "feed_end_date": "2027-01-12",
@@ -23,8 +23,10 @@
     "translations.txt": 53,
     "trips.txt": 22
   },
-  "active_service_ids": [],
-  "active_trip_count": 0,
+  "active_service_ids": [
+    "平日土"
+  ],
+  "active_trip_count": 22,
   "has_shapes": true,
   "files": [
     "agency.txt",
@@ -42,17 +44,8 @@
     "translations.txt",
     "trips.txt"
   ],
-  "issues": [
-    {
-      "severity": "warning",
-      "code": "no_active_service",
-      "message": "No active service_id found for 2026-08-30",
-      "table": null,
-      "row": null,
-      "sample": []
-    }
-  ],
+  "issues": [],
   "error_count": 0,
-  "warning_count": 1,
+  "warning_count": 0,
   "is_valid": true
 }
