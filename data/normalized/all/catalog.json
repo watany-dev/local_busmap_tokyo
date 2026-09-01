@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T01:03:22.134983+00:00",
+  "generated_at": "2026-09-01T01:09:13.984701+00:00",
   "feed_count": 21,
   "feeds": [
     {
@@ -109,9 +109,9 @@
       "status": "ok",
       "stop_count": 51,
       "route_geometry_count": 3,
-      "feed_start_date": "2026-07-01",
-      "feed_end_date": "2027-06-30",
-      "feed_version": "20260701更新-2026年06月03日 16時19分39秒-西沢ツールver8.31",
+      "feed_start_date": "2026-09-01",
+      "feed_end_date": "2027-08-31",
+      "feed_version": "20260901更新 運賃改定-2026年07月23日 11時49分15秒-西沢ツールver8.31",
       "active_trip_count": 49
     },
     {
@@ -291,7 +291,7 @@
       "feed_start_date": "2026-01-29",
       "feed_end_date": "2027-01-28",
       "feed_version": "2026v1-2026年02月06日 10時33分54秒-西沢ツールver8.26",
-      "active_trip_count": 43
+      "active_trip_count": 38
     },
     {
       "id": "F014",

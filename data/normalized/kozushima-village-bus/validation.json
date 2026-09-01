@@ -2,7 +2,7 @@
   "feed_id": "F028",
   "municipality": "神津島村",
   "service_name": "村営バス",
-  "service_date": "2026-08-31",
+  "service_date": "2026-09-01",
   "status": "valid",
   "feed_start_date": "2026-01-29",
   "feed_end_date": "2027-01-28",
@@ -24,9 +24,9 @@
     "trips.txt": 192
   },
   "active_service_ids": [
-    "７月１９日-８月３１日"
+    "９月１日-９月２３日"
   ],
-  "active_trip_count": 43,
+  "active_trip_count": 38,
   "has_shapes": true,
   "files": [
     "agency.txt",
