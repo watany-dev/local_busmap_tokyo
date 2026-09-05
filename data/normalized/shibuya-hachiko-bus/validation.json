@@ -2,7 +2,7 @@
   "feed_id": "F001",
   "municipality": "渋谷区",
   "service_name": "ハチ公バス",
-  "service_date": "2026-09-04",
+  "service_date": "2026-09-05",
   "status": "valid",
   "feed_start_date": "2024-06-17",
   "feed_end_date": "2030-03-31",
@@ -23,9 +23,10 @@
   },
   "active_service_ids": [
     "全日",
-    "平日"
+    "土曜",
+    "土曜・休日"
   ],
-  "active_trip_count": 158,
+  "active_trip_count": 144,
   "has_shapes": false,
   "files": [
     "agency.txt",
