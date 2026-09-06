@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:55:57.773918+00:00",
+  "generated_at": "2026-09-06T01:03:48.872119+00:00",
   "feed_count": 21,
   "feeds": [
     {
@@ -96,7 +96,7 @@
       "feed_start_date": "2026-01-13",
       "feed_end_date": "2027-01-12",
       "feed_version": "20260113あおやぎっこ初版-2026年01月13日 11時48分36秒-西沢ツールver8.31",
-      "active_trip_count": 22
+      "active_trip_count": 0
     },
     {
       "id": "F011",
@@ -195,7 +195,7 @@
       "feed_start_date": "2026-04-01",
       "feed_end_date": "2028-03-31",
       "feed_version": null,
-      "active_trip_count": 90
+      "active_trip_count": 87
     },
     {
       "id": "F008",
