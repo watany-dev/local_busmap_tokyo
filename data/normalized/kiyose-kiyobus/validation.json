@@ -2,7 +2,7 @@
   "feed_id": "F013",
   "municipality": "清瀬市",
   "service_name": "きよバス",
-  "service_date": "2026-09-06",
+  "service_date": "2026-09-07",
   "status": "valid",
   "feed_start_date": "2026-04-01",
   "feed_end_date": "2027-11-23",
@@ -23,7 +23,7 @@
     "trips.txt": 48
   },
   "active_service_ids": [
-    "10-休日"
+    "10-平日"
   ],
   "active_trip_count": 16,
   "has_shapes": false,

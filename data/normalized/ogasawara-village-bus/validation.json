@@ -2,7 +2,7 @@
   "feed_id": "F023",
   "municipality": "小笠原村",
   "service_name": "村営バス",
-  "service_date": "2026-09-06",
+  "service_date": "2026-09-07",
   "status": "valid",
   "feed_start_date": "2026-02-10",
   "feed_end_date": "2027-02-10",
@@ -23,9 +23,9 @@
   },
   "active_service_ids": [
     "全日",
-    "土日祝"
+    "平日"
   ],
-  "active_trip_count": 18,
+  "active_trip_count": 24,
   "has_shapes": false,
   "files": [
     "agency.txt",

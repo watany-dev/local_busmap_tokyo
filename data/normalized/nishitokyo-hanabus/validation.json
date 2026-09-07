@@ -2,7 +2,7 @@
   "feed_id": "F030",
   "municipality": "西東京市",
   "service_name": "はなバス",
-  "service_date": "2026-09-06",
+  "service_date": "2026-09-07",
   "status": "valid",
   "feed_start_date": "2026-04-01",
   "feed_end_date": "2027-03-31",
@@ -23,9 +23,9 @@
     "trips.txt": 514
   },
   "active_service_ids": [
-    "土休日"
+    "平日"
   ],
-  "active_trip_count": 211,
+  "active_trip_count": 227,
   "has_shapes": true,
   "files": [
     "agency.txt",

@@ -2,7 +2,7 @@
   "feed_id": "F022",
   "municipality": "台東区",
   "service_name": "めぐりん",
-  "service_date": "2026-09-06",
+  "service_date": "2026-09-07",
   "status": "valid",
   "feed_start_date": "2025-08-10",
   "feed_end_date": "2026-12-31",
@@ -23,10 +23,10 @@
     "trips.txt": 290
   },
   "active_service_ids": [
-    "土日祝",
+    "平日",
     "毎日"
   ],
-  "active_trip_count": 119,
+  "active_trip_count": 171,
   "has_shapes": true,
   "files": [
     "agency.txt",

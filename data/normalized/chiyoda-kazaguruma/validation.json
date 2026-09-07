@@ -2,7 +2,7 @@
   "feed_id": "F021",
   "municipality": "千代田区",
   "service_name": "風ぐるま",
-  "service_date": "2026-09-06",
+  "service_date": "2026-09-07",
   "status": "valid",
   "feed_start_date": "2026-06-02",
   "feed_end_date": "2027-12-31",
@@ -23,10 +23,10 @@
     "trips.txt": 91
   },
   "active_service_ids": [
-    "土日祝",
+    "平日",
     "毎日"
   ],
-  "active_trip_count": 45,
+  "active_trip_count": 55,
   "has_shapes": true,
   "files": [
     "agency.txt",
