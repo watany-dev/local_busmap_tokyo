@@ -2,7 +2,7 @@
   "feed_id": "F003",
   "municipality": "文京区",
   "service_name": "Bーぐる",
-  "service_date": "2026-09-11",
+  "service_date": "2026-09-12",
   "status": "valid",
   "feed_start_date": "2026-03-20",
   "feed_end_date": "2027-12-31",
@@ -24,10 +24,10 @@
     "trips.txt": 151
   },
   "active_service_ids": [
-    "平日",
+    "土日祝",
     "毎日"
   ],
-  "active_trip_count": 113,
+  "active_trip_count": 71,
   "has_shapes": true,
   "files": [
     "agency.txt",

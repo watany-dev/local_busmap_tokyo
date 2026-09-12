@@ -2,7 +2,7 @@
   "feed_id": "F010",
   "municipality": "国分寺市",
   "service_name": "ぶんバス",
-  "service_date": "2026-09-11",
+  "service_date": "2026-09-12",
   "status": "valid",
   "feed_start_date": "2026-01-05",
   "feed_end_date": "2027-06-30",
@@ -25,10 +25,9 @@
     "trips.txt": 143
   },
   "active_service_ids": [
-    "平日",
     "毎日"
   ],
-  "active_trip_count": 143,
+  "active_trip_count": 140,
   "has_shapes": true,
   "files": [
     "agency.txt",

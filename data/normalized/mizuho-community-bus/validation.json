@@ -2,7 +2,7 @@
   "feed_id": "F018",
   "municipality": "瑞穂町",
   "service_name": "コミュニティバス",
-  "service_date": "2026-09-11",
+  "service_date": "2026-09-12",
   "status": "valid",
   "feed_start_date": "2024-01-01",
   "feed_end_date": "2027-03-31",
@@ -24,9 +24,9 @@
     "trips.txt": 94
   },
   "active_service_ids": [
-    "平日"
+    "土休日"
   ],
-  "active_trip_count": 50,
+  "active_trip_count": 44,
   "has_shapes": true,
   "files": [
     "agency.txt",
