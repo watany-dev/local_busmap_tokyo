@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T00:58:21.316837+00:00",
-  "feed_count": 21,
+  "generated_at": "2026-09-26T00:57:29.988165+00:00",
+  "feed_count": 20,
   "feeds": [
     {
       "id": "F020",
@@ -32,7 +32,7 @@
       "feed_start_date": "2025-12-20",
       "feed_end_date": "2026-12-31",
       "feed_version": "20251220_K001",
-      "active_trip_count": 96
+      "active_trip_count": 79
     },
     {
       "id": "F021",
@@ -48,7 +48,7 @@
       "feed_start_date": "2026-06-02",
       "feed_end_date": "2027-12-31",
       "feed_version": "Kaze_20260602",
-      "active_trip_count": 55
+      "active_trip_count": 45
     },
     {
       "id": "F022",
@@ -64,7 +64,7 @@
       "feed_start_date": "2025-08-10",
       "feed_end_date": "2026-12-31",
       "feed_version": "20250801_MEG001",
-      "active_trip_count": 171
+      "active_trip_count": 119
     },
     {
       "id": "F010",
@@ -80,7 +80,7 @@
       "feed_start_date": "2026-01-05",
       "feed_end_date": "2027-06-30",
       "feed_version": "20260105_K001",
-      "active_trip_count": 143
+      "active_trip_count": 140
     },
     {
       "id": "F012",
@@ -128,7 +128,7 @@
       "feed_start_date": "2026-02-10",
       "feed_end_date": "2027-02-10",
       "feed_version": "2026/02/09改正-見える化ver2.6e",
-      "active_trip_count": 24
+      "active_trip_count": 18
     },
     {
       "id": "F003",
@@ -144,7 +144,7 @@
       "feed_start_date": "2026-03-20",
       "feed_end_date": "2027-12-31",
       "feed_version": "B_20260401_001",
-      "active_trip_count": 113
+      "active_trip_count": 71
     },
     {
       "id": "F025",
@@ -179,7 +179,7 @@
       "feed_start_date": "2026-02-09",
       "feed_end_date": "2027-03-31",
       "feed_version": "2026/02/09改正-見える化ver2.6e",
-      "active_trip_count": 44
+      "active_trip_count": 40
     },
     {
       "id": "F015",
@@ -195,23 +195,7 @@
       "feed_start_date": "2026-04-01",
       "feed_end_date": "2028-03-31",
       "feed_version": null,
-      "active_trip_count": 98
-    },
-    {
-      "id": "F008",
-      "slug": "itabashi-rinringo",
-      "municipality": "板橋区",
-      "service_name": "りんりんGO",
-      "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/006/732/rinringo_gtfs_20260401asshuku.zip",
-      "license": "CC BY 4.0",
-      "priority": "A",
-      "status": "ok",
-      "stop_count": 33,
-      "route_geometry_count": 2,
-      "feed_start_date": "2026-04-01",
-      "feed_end_date": "2028-03-31",
-      "feed_version": "202604-202803-2026年05月11日 18時13分18秒-西沢ツールver8.31",
-      "active_trip_count": 22
+      "active_trip_count": 90
     },
     {
       "id": "F013",
@@ -243,7 +227,7 @@
       "feed_start_date": "2024-06-17",
       "feed_end_date": "2030-03-31",
       "feed_version": "2024/06/01改正-見える化ver2.6e",
-      "active_trip_count": 158
+      "active_trip_count": 144
     },
     {
       "id": "F018",
@@ -259,7 +243,7 @@
       "feed_start_date": "2024-01-01",
       "feed_end_date": "2027-03-31",
       "feed_version": "20260301改正",
-      "active_trip_count": 50
+      "active_trip_count": 44
     },
     {
       "id": "F016",
@@ -275,7 +259,7 @@
       "feed_start_date": "2020-12-01",
       "feed_end_date": "2028-03-31",
       "feed_version": "2026_3_16_R12_daiyakaisei-2026年03月18日 09時40分15秒-西沢ツールver8.31",
-      "active_trip_count": 158
+      "active_trip_count": 87
     },
     {
       "id": "F028",
@@ -291,7 +275,7 @@
       "feed_start_date": "2026-01-29",
       "feed_end_date": "2027-01-28",
       "feed_version": "2026v1-2026年02月06日 10時33分54秒-西沢ツールver8.26",
-      "active_trip_count": 17
+      "active_trip_count": 0
     },
     {
       "id": "F014",
@@ -307,7 +291,7 @@
       "feed_start_date": "2026-04-01",
       "feed_end_date": "2027-03-31",
       "feed_version": "2026/04/01改正-見える化ver2.6h",
-      "active_trip_count": 81
+      "active_trip_count": 33
     },
     {
       "id": "F029",
@@ -339,7 +323,7 @@
       "feed_start_date": "2026-04-01",
       "feed_end_date": "2027-03-31",
       "feed_version": "2026/04/01改正-見える化ver2.6h",
-      "active_trip_count": 227
+      "active_trip_count": 211
     }
   ]
 }
