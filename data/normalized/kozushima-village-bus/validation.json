@@ -2,7 +2,7 @@
   "feed_id": "F028",
   "municipality": "神津島村",
   "service_name": "村営バス",
-  "service_date": "2026-09-26",
+  "service_date": "2026-09-27",
   "status": "valid",
   "feed_start_date": "2026-01-29",
   "feed_end_date": "2027-01-28",
@@ -46,7 +46,7 @@
     {
       "severity": "warning",
       "code": "no_active_service",
-      "message": "No active service_id found for 2026-09-26",
+      "message": "No active service_id found for 2026-09-27",
       "table": null,
       "row": null,
       "sample": []
