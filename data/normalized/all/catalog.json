@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:39:16.462567+00:00",
+  "generated_at": "2026-11-03T00:36:42.262355+00:00",
   "feed_count": 20,
   "feeds": [
     {
@@ -32,7 +32,7 @@
       "feed_start_date": "2025-12-20",
       "feed_end_date": "2026-12-31",
       "feed_version": "20251220_K001",
-      "active_trip_count": 96
+      "active_trip_count": 79
     },
     {
       "id": "F021",
@@ -48,7 +48,7 @@
       "feed_start_date": "2026-06-02",
       "feed_end_date": "2027-12-31",
       "feed_version": "Kaze_20260602",
-      "active_trip_count": 55
+      "active_trip_count": 45
     },
     {
       "id": "F022",
@@ -59,12 +59,12 @@
       "license": "CC BY 4.0",
       "priority": "A",
       "status": "ok",
-      "stop_count": 128,
+      "stop_count": 127,
       "route_geometry_count": 17,
-      "feed_start_date": "2025-08-10",
-      "feed_end_date": "2026-12-31",
-      "feed_version": "20250801_MEG001",
-      "active_trip_count": 171
+      "feed_start_date": "2026-03-01",
+      "feed_end_date": "2027-12-31",
+      "feed_version": "megu_20260301_003",
+      "active_trip_count": 119
     },
     {
       "id": "F010",
@@ -128,7 +128,7 @@
       "feed_start_date": "2026-02-10",
       "feed_end_date": "2027-02-10",
       "feed_version": "2026/02/09改正-見える化ver2.6e",
-      "active_trip_count": 24
+      "active_trip_count": 18
     },
     {
       "id": "F003",
@@ -144,7 +144,7 @@
       "feed_start_date": "2026-03-20",
       "feed_end_date": "2027-12-31",
       "feed_version": "B_20260401_001",
-      "active_trip_count": 113
+      "active_trip_count": 71
     },
     {
       "id": "F025",
@@ -179,7 +179,7 @@
       "feed_start_date": "2026-02-09",
       "feed_end_date": "2027-03-31",
       "feed_version": "2026/02/09改正-見える化ver2.6e",
-      "active_trip_count": 44
+      "active_trip_count": 40
     },
     {
       "id": "F015",
@@ -195,7 +195,7 @@
       "feed_start_date": "2026-04-01",
       "feed_end_date": "2028-03-31",
       "feed_version": null,
-      "active_trip_count": 98
+      "active_trip_count": 87
     },
     {
       "id": "F013",
@@ -243,7 +243,7 @@
       "feed_start_date": "2026-03-01",
       "feed_end_date": "2027-03-31",
       "feed_version": "20260301改正",
-      "active_trip_count": 50
+      "active_trip_count": 44
     },
     {
       "id": "F016",
@@ -291,7 +291,7 @@
       "feed_start_date": "2026-04-01",
       "feed_end_date": "2027-03-31",
       "feed_version": "2026/04/01改正-見える化ver2.6h",
-      "active_trip_count": 81
+      "active_trip_count": 33
     },
     {
       "id": "F029",
@@ -323,7 +323,7 @@
       "feed_start_date": "2026-04-01",
       "feed_end_date": "2027-03-31",
       "feed_version": "2026/04/01改正-見える化ver2.6h",
-      "active_trip_count": 227
+      "active_trip_count": 211
     }
   ]
 }
