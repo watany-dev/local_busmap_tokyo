@@ -2,11 +2,11 @@
   "feed_id": "F026",
   "municipality": "東大和市",
   "service_name": "ちょこバス",
-  "service_date": "2026-11-19",
+  "service_date": "2026-11-20",
   "status": "valid",
   "feed_start_date": "2026-02-09",
   "feed_end_date": "2027-03-31",
-  "feed_version": "2026/02/09改正-見える化ver2.6e",
+  "feed_version": "2026/11/18改正-江戸街道停留所移設",
   "counts": {
     "agency.txt": 1,
     "calendar.txt": 2,

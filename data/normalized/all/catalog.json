@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T00:38:38.180463+00:00",
+  "generated_at": "2026-11-20T00:35:41.783925+00:00",
   "feed_count": 20,
   "feeds": [
     {
@@ -178,7 +178,7 @@
       "route_geometry_count": 7,
       "feed_start_date": "2026-02-09",
       "feed_end_date": "2027-03-31",
-      "feed_version": "2026/02/09改正-見える化ver2.6e",
+      "feed_version": "2026/11/18改正-江戸街道停留所移設",
       "active_trip_count": 44
     },
     {
