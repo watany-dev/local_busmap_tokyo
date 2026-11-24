@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T00:40:58.055469+00:00",
+  "generated_at": "2026-11-24T00:35:00.515547+00:00",
   "total": 21,
   "ok": 20,
   "invalid": 0,
@@ -22,10 +22,10 @@
         "status": "ok",
         "path": "data/raw/F020/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/MiyakeVill/AllLine.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/MiyakeVill/AllLine-20250929.zip?st=2026-11-23T00%3A39%3A32Z&se=2026-11-23T00%3A41%3A32Z&sp=r&sv=2018-03-28&sr=b&sig=2I637jIYfwTCyAkO7FBtc8CxufLnfPwCZ7Zb3Arisxg%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/MiyakeVill/AllLine-20250929.zip?st=2026-11-24T00%3A33%3A36Z&se=2026-11-24T00%3A35%3A36Z&sp=r&sv=2018-03-28&sr=b&sig=yRTqCeXb%2F4ickJ%2Fk2PHmVGN9mNwojD2wH7k815GFJfM%3D",
         "size_bytes": 106023,
         "sha256": "636d327d9a4f6511592ad82ad4a0981a444f11449e34ebfbda23810a4f26f92a",
-        "downloaded_at": "2026-11-23T00:40:33.303223+00:00",
+        "downloaded_at": "2026-11-24T00:34:36.781937+00:00",
         "etag": "\"0x8DDFF0E97C0B119\"",
         "last_modified": "Mon, 29 Sep 2025 04:13:49 GMT",
         "reused_existing": false
@@ -34,7 +34,7 @@
         "feed_id": "F020",
         "municipality": "三宅村",
         "service_name": "村営バス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2025-09-29",
         "feed_end_date": "2026-12-31",
@@ -54,13 +54,13 @@
           "trips.txt": 34
         },
         "active_service_ids": [
-          "休日",
-          "休日三池港",
-          "休日伊ヶ谷港",
-          "休日錆ヶ浜港",
           "全日三池港船連絡バス",
           "全日伊ヶ谷港船連絡バス",
-          "全日錆ヶ浜港船連絡バス"
+          "全日錆ヶ浜港船連絡バス",
+          "平日",
+          "平日三池港",
+          "平日伊ヶ谷港",
+          "平日錆ヶ浜港"
         ],
         "active_trip_count": 20,
         "has_shapes": false,
@@ -112,10 +112,10 @@
         "status": "ok",
         "path": "data/raw/F005/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/KitaAllLines.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/HitachiAutomobileTransportation/KitaAllLines-20251220.zip?st=2026-11-23T00%3A39%3A33Z&se=2026-11-23T00%3A41%3A33Z&sp=r&sv=2018-03-28&sr=b&sig=8paGlzdN0JjbCv0cXk8GtV5noeqGNiSqXW%2B8XrtSSUs%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/HitachiAutomobileTransportation/KitaAllLines-20251220.zip?st=2026-11-24T00%3A33%3A37Z&se=2026-11-24T00%3A35%3A37Z&sp=r&sv=2018-03-28&sr=b&sig=NnFDMPrCNNldmf%2Bv9CnrsqNvHHlDFCtDpTFLD9Vo738%3D",
         "size_bytes": 33202,
         "sha256": "08644c63272c1b128f2d7fed971002749ba7c3526905321ca328dbbfbc2df819",
-        "downloaded_at": "2026-11-23T00:40:34.502376+00:00",
+        "downloaded_at": "2026-11-24T00:34:38.465185+00:00",
         "etag": "\"0x8DE4DBBEF9A0206\"",
         "last_modified": "Wed, 07 Jan 2026 07:11:10 GMT",
         "reused_existing": false
@@ -124,7 +124,7 @@
         "feed_id": "F005",
         "municipality": "北区",
         "service_name": "Kバス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2025-12-20",
         "feed_end_date": "2026-12-31",
@@ -146,10 +146,10 @@
           "trips.txt": 174
         },
         "active_service_ids": [
-          "土日祝",
+          "平日",
           "毎日"
         ],
-        "active_trip_count": 79,
+        "active_trip_count": 96,
         "has_shapes": true,
         "files": [
           "agency.txt",
@@ -192,10 +192,10 @@
         "status": "ok",
         "path": "data/raw/F021/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/Chiyoda_ALLLINES.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/HitachiAutomobileTransportation/Chiyoda_ALLLINES-20260601.zip?st=2026-11-23T00%3A39%3A34Z&se=2026-11-23T00%3A41%3A34Z&sp=r&sv=2018-03-28&sr=b&sig=zbKIMBXpqtPJyhbX369nyHgNt8jCBQu%2Fl8tH6joQMfg%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/HitachiAutomobileTransportation/Chiyoda_ALLLINES-20260601.zip?st=2026-11-24T00%3A33%3A38Z&se=2026-11-24T00%3A35%3A38Z&sp=r&sv=2018-03-28&sr=b&sig=NuAurB8yEXrdurHHQWiksAoc7lMIfPeSunKuU1BoYo0%3D",
         "size_bytes": 29964,
         "sha256": "186f739bdd1da325209c050accf2a3438b199f4552835c25d6c1030f15737dbc",
-        "downloaded_at": "2026-11-23T00:40:35.636323+00:00",
+        "downloaded_at": "2026-11-24T00:34:39.457144+00:00",
         "etag": "\"0x8DEC5EA8E8B1ECB\"",
         "last_modified": "Tue, 09 Jun 2026 05:47:13 GMT",
         "reused_existing": false
@@ -204,7 +204,7 @@
         "feed_id": "F021",
         "municipality": "千代田区",
         "service_name": "風ぐるま",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-06-02",
         "feed_end_date": "2027-12-31",
@@ -225,10 +225,10 @@
           "trips.txt": 91
         },
         "active_service_ids": [
-          "土日祝",
+          "平日",
           "毎日"
         ],
-        "active_trip_count": 45,
+        "active_trip_count": 55,
         "has_shapes": true,
         "files": [
           "agency.txt",
@@ -270,10 +270,10 @@
         "status": "ok",
         "path": "data/raw/F022/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/TokyoTaitoCity/megurinCCBY40.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/TokyoTaitoCity/megurinCCBY40-20261102.zip?st=2026-11-23T00%3A39%3A36Z&se=2026-11-23T00%3A41%3A36Z&sp=r&sv=2018-03-28&sr=b&sig=9brLB69Xi6CSyvEVfnX%2BylS0d3v%2Bc102BS9p9rm87oU%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/TokyoTaitoCity/megurinCCBY40-20261102.zip?st=2026-11-24T00%3A33%3A39Z&se=2026-11-24T00%3A35%3A39Z&sp=r&sv=2018-03-28&sr=b&sig=BHcaycG4H9Iw18kyZM5MW%2FfSdRMbC%2FJ4Dpe%2BTaj%2BLqw%3D",
         "size_bytes": 79171,
         "sha256": "94c57169a55b4c93aec0cc293a39928c02ca7012b188669ffd578aae59a96274",
-        "downloaded_at": "2026-11-23T00:40:36.847181+00:00",
+        "downloaded_at": "2026-11-24T00:34:40.575917+00:00",
         "etag": "\"0x8DF388C16421EDD\"",
         "last_modified": "Mon, 02 Nov 2026 02:50:42 GMT",
         "reused_existing": false
@@ -282,7 +282,7 @@
         "feed_id": "F022",
         "municipality": "台東区",
         "service_name": "めぐりん",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-03-01",
         "feed_end_date": "2027-12-31",
@@ -303,10 +303,10 @@
           "trips.txt": 290
         },
         "active_service_ids": [
-          "土日祝",
+          "平日",
           "毎日"
         ],
-        "active_trip_count": 119,
+        "active_trip_count": 171,
         "has_shapes": true,
         "files": [
           "agency.txt",
@@ -348,10 +348,10 @@
         "status": "ok",
         "path": "data/raw/F010/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/KokubunjiCity/kokubunji_city_bunbus.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/KokubunjiCity/kokubunji_city_bunbus-20260105.zip?st=2026-11-23T00%3A39%3A37Z&se=2026-11-23T00%3A41%3A37Z&sp=r&sv=2018-03-28&sr=b&sig=innz5nQA%2FxcERHPwy9kYT3DQU0kvPr6mDgwAosBmgm4%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/KokubunjiCity/kokubunji_city_bunbus-20260105.zip?st=2026-11-24T00%3A33%3A41Z&se=2026-11-24T00%3A35%3A41Z&sp=r&sv=2018-03-28&sr=b&sig=TdwYL4A8SenxQqNfu1JpTPJatbx31ZWekDdu8ES7w7Y%3D",
         "size_bytes": 36409,
         "sha256": "68e4ccb129d94c343d45b07fe769e43443039bcb1540fc00f3d5b60467dff8ec",
-        "downloaded_at": "2026-11-23T00:40:37.964732+00:00",
+        "downloaded_at": "2026-11-24T00:34:41.783119+00:00",
         "etag": "\"0x8DE445C3BB7F8A0\"",
         "last_modified": "Fri, 26 Dec 2025 08:53:26 GMT",
         "reused_existing": false
@@ -360,7 +360,7 @@
         "feed_id": "F010",
         "municipality": "国分寺市",
         "service_name": "ぶんバス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-01-05",
         "feed_end_date": "2027-06-30",
@@ -430,10 +430,10 @@
         "status": "ok",
         "path": "data/raw/F012/feed.zip",
         "requested_url": "https://api.gtfs-data.jp/v2/organizations/kunitachicity/feeds/aoyagikko/files/feed.zip",
-        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/kunitachicity/aoyagikko/973bcd3a-3155-4f2b-83ac-e9f64c30d859/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_kunitachicity_aoyagikko_20260113_20260121162041.zip&AWSAccessKeyId=ASIARI5CFYANDDFQSZEQ&Signature=Gw8Q9c4FRj%2BzFzW9A%2Buk5AQBZpI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkYwRAIgNH2nGVzGBTGCkvM30KQhTEspKKsbIF%2BkI1NudwJH%2Bb4CIGXYcVR6tlcIcUhXQMsovBkz9SWolQovE2DVc6Ck4fhQKtAECGoQBRoMMDg3ODUwMDc0MTM4Igx92Dp%2BPl5Gs7P%2FmKAqrQS4ATS2ke2tGHyEWMEhvt%2BdXMJNlHI1swVcW6c4aCMlw12Wke0A9wZq69vZ6IxFZvda15YecFj5k%2BEjawyO55EQ%2FjhbR4DEN7tbLII5QEvg9DTaED7mYkWqtNB0ixlSWtcnxmxWVXTmmNBoWf5NXxUfp86gGG%2FtK9wbx6z279GNdtbs9NrzmNnkpQvy%2BLOvlVTyX7iXZGABK4kF0jcAVBywflucyqxMEMaFGRzii7GxU429rUb8BMRAzwzHWNs8Ju1g%2B%2FgoE2zfTrLDAtnHZRCAYACMigAOy7VuppT%2Fhoa6IlP2J0BQ6DkwKDcB5%2F8xRxeZcreDxdP6QPMVJmYA0fU%2BPEb6aA4qZOUNCZqSBhJ%2BfvyuU0EuaxNNEfzWlJPseMI%2BYpFS0YUsthjws%2Fw9r34MJLh6uLrv7goxSxqXZosIl6f72ko%2BlyK46z%2Fk4f7%2BwRFH3yznRLqPwzo84xecwr%2F%2FZWaBzVlMrjp%2FpEdGMTUinNDRApek54xBTuwO35mb6%2Bz87F7siVZSSnQg5WMdHDIkjxcbfD4YHm%2FFftWUPLrMezpf8Jgyz5P4Ns9p7iVcn0JPrtM7gGxnt11BJqWwJXxjOgd2JRHnF3eo6uP3wqOHq0D2i%2Bu%2Fek6KYSaIi76eQQUI%2FMD8MWSFDFF%2F7jkPNuCC%2FViSLxO5MBSibfrLPDISx%2FaOX32qqIqhEQRnpu%2BLgZqQigQdskGLtddKbOSF5pjXod5q4oDWgB8rJqIdhTDZlY7YBjqkAbfORQW6diJclZFGwWnB7o886JJl%2F5Bd44fuFV8o3YI8489BowslEB%2Fq%2FKs%2FkuvCrMF6lN2xptyXfqwt3136YNGr8y78%2Fy%2B33htXY5Qc44%2BFvDBO%2BpA6i%2BNAMpTkCaLBaBQf1FULVv17MeLDdcSHcw3ytsoEeD9T50OeCQNeN5Sf76%2FXTyuyCY4sfkb3klUOFTwA%2FfFvBftBqqhHcOvKHdwlme0s&Expires=1795394498",
+        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/kunitachicity/aoyagikko/973bcd3a-3155-4f2b-83ac-e9f64c30d859/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_kunitachicity_aoyagikko_20260113_20260121162041.zip&AWSAccessKeyId=ASIARI5CFYANOAC7EZ7K&Signature=Aq7GmruajKBRn1UMgT8nZQKEpG8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjELj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkgwRgIhAK%2FmjQlItpysqVtftA8Kf5ycgHiQePoGKWB90cmVf0TdAiEA%2FMMgKniuh7BjGpg6LtOIBC6hCSDDpRN3oJ9h6VqFb1Eq2QQIgf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwODc4NTAwNzQxMzgiDIu9wxC4lb3w5kZhQCqtBIZTMZnArmg%2Fz9zIoJ76GXXuiHtFPvgnvRXsHtLRQtxIJRlDNVsc0fSrFCwv2xPd%2BmjFxOZUKIQ5lXetOUvHb%2B%2F%2F2gRuFKb6Hyqa0R2VUd%2FHZUnl1973zMD%2BmYvfrUQwsaE6yQDn2c%2BDdV4boiq%2B7tokQQNeuypAKEhHmAhXeLsTAfRMzuUuj5%2FYsXL0VEAGSitOypkejCEQyPCBColG9Stf9xp8IM4DRjmnMJSBB%2Bux28gAy6xvD7G95mS4k5hsPLUIrXRL9yHE3nhjgE5T0VpocCWLtZJM263HMjBw7mf9s%2BMGHWbkrRbo3j5c8jBpS3QOm4qV7AiGM5mFlN4bOu3UfoGZszX2jIvLB92bWTrq4WBdFrpaAaTA6xbbbUPFj7X3Zw32ZGO%2BoW6sPGaYnGgtmklPejXU8T10P6Ydox0p15pPkO9Ax9WNqzeAhJ%2F5M4maSlrd0aqyOMivr3xOBnXBT2FJopaya%2BcuuYbHSJJ%2BbscD%2FePwK3s%2BNjQ7elLPN2HJ%2FLSbaZtk8eOOAspy%2FdRAmdejJyCym2NDl24qxD9shqyqm6OCmwk9K9ZpeqbmH1%2FKj0mjYzHLq1svYprr0%2BAdKJtGqegT26n%2FKOtEINX5XuONnALexq55vCym0tk22hXZtgPVcvwE9U%2Bs9jVVA2svqjHF3yq9hnHRaRgAFuCfWXOhsZKRKRsDkKsJ8ZQJoLrQsNduWAFryRCmP2tFChEJKt7w9OgNZhjSit5OMLqyk9gGOqIBicGXnLss2Cf20B9Zn7BhTwEdKCnFXRlBMIO739k%2FIxnM2w9AqXu2zD7STC2X%2BPMoTbQTQsCA%2F2DtXLhzVlXe%2FrzwpuH%2Fimk56qysX8%2BRFLMcW8gJt%2BJ%2B8xLT7PX0IGyRXU1uSZposhVJY2MRapzNpZ4sIAXR5FELptb6uWAJac8oj%2Fs3YL8DpSfP5WE%2BohI6qBg1mYXq9MhVzJLJQNQBs8MK&Expires=1795480542",
         "size_bytes": 10973,
         "sha256": "5e856c939fa0a61864d0e456d33841177d9494905c17ea38de48abb7031236c1",
-        "downloaded_at": "2026-11-23T00:40:39.409369+00:00",
+        "downloaded_at": "2026-11-24T00:34:42.821677+00:00",
         "etag": "\"bf4c7294939ec0ce6df62090e4e9fb04\"",
         "last_modified": "Wed, 14 Jan 2026 01:04:23 GMT",
         "reused_existing": false
@@ -442,7 +442,7 @@
         "feed_id": "F012",
         "municipality": "国立市",
         "service_name": "あおやぎっこ",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-01-13",
         "feed_end_date": "2027-01-12",
@@ -509,10 +509,10 @@
         "status": "ok",
         "path": "data/raw/F011/feed.zip",
         "requested_url": "https://api.gtfs-data.jp/v2/organizations/kunitachicity/feeds/kunikko/files/feed.zip",
-        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/kunitachicity/kunikko/e5302837-590c-40f3-a05f-495e13ddd35b/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_kunitachicity_kunikko_20260901_20260728113801.zip&AWSAccessKeyId=ASIARI5CFYANDDFQSZEQ&Signature=ENhsnR1ksE5O3rvRIZY%2FspN%2Bqss%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkYwRAIgNH2nGVzGBTGCkvM30KQhTEspKKsbIF%2BkI1NudwJH%2Bb4CIGXYcVR6tlcIcUhXQMsovBkz9SWolQovE2DVc6Ck4fhQKtAECGoQBRoMMDg3ODUwMDc0MTM4Igx92Dp%2BPl5Gs7P%2FmKAqrQS4ATS2ke2tGHyEWMEhvt%2BdXMJNlHI1swVcW6c4aCMlw12Wke0A9wZq69vZ6IxFZvda15YecFj5k%2BEjawyO55EQ%2FjhbR4DEN7tbLII5QEvg9DTaED7mYkWqtNB0ixlSWtcnxmxWVXTmmNBoWf5NXxUfp86gGG%2FtK9wbx6z279GNdtbs9NrzmNnkpQvy%2BLOvlVTyX7iXZGABK4kF0jcAVBywflucyqxMEMaFGRzii7GxU429rUb8BMRAzwzHWNs8Ju1g%2B%2FgoE2zfTrLDAtnHZRCAYACMigAOy7VuppT%2Fhoa6IlP2J0BQ6DkwKDcB5%2F8xRxeZcreDxdP6QPMVJmYA0fU%2BPEb6aA4qZOUNCZqSBhJ%2BfvyuU0EuaxNNEfzWlJPseMI%2BYpFS0YUsthjws%2Fw9r34MJLh6uLrv7goxSxqXZosIl6f72ko%2BlyK46z%2Fk4f7%2BwRFH3yznRLqPwzo84xecwr%2F%2FZWaBzVlMrjp%2FpEdGMTUinNDRApek54xBTuwO35mb6%2Bz87F7siVZSSnQg5WMdHDIkjxcbfD4YHm%2FFftWUPLrMezpf8Jgyz5P4Ns9p7iVcn0JPrtM7gGxnt11BJqWwJXxjOgd2JRHnF3eo6uP3wqOHq0D2i%2Bu%2Fek6KYSaIi76eQQUI%2FMD8MWSFDFF%2F7jkPNuCC%2FViSLxO5MBSibfrLPDISx%2FaOX32qqIqhEQRnpu%2BLgZqQigQdskGLtddKbOSF5pjXod5q4oDWgB8rJqIdhTDZlY7YBjqkAbfORQW6diJclZFGwWnB7o886JJl%2F5Bd44fuFV8o3YI8489BowslEB%2Fq%2FKs%2FkuvCrMF6lN2xptyXfqwt3136YNGr8y78%2Fy%2B33htXY5Qc44%2BFvDBO%2BpA6i%2BNAMpTkCaLBaBQf1FULVv17MeLDdcSHcw3ytsoEeD9T50OeCQNeN5Sf76%2FXTyuyCY4sfkb3klUOFTwA%2FfFvBftBqqhHcOvKHdwlme0s&Expires=1795394499",
+        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/kunitachicity/kunikko/e5302837-590c-40f3-a05f-495e13ddd35b/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_kunitachicity_kunikko_20260901_20260728113801.zip&AWSAccessKeyId=ASIARI5CFYANL5AWCWLE&Signature=WIQ85wqrwCCVa06PGeJnn2wz6w0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjELj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkYwRAIgLxWlkzhxUsnXNJvoW51aLSEJVIfzTWTB0BkGGpCSzVgCIEnx59WtMn%2FgPGY%2FjCM9%2B4d5wN%2FAcekU4La87BaRUSLOKtkECIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDg3ODUwMDc0MTM4IgzcsmTTqbeV4vCeYm4qrQQqPmf0mvTh0hrHzF1duVOdXOYtoGY0c1e7Y6Hc8UMskZIcdcTEZfGsTTj8jXl5Tqmw1FuVsfxtwUEusw%2FDTB26n61KRDLGr%2BcigrkfsApP6b2kCZxy5x2klCzQV1aOHPuIq8D4lqsfwkSklYx7ZNiG3tr7JijZaHhgKNo3Ccw9BE0i4NEDR0t9q4EoTaKhX1aW9c0Cnz7j1j23B4E2dLIj7ooainUhoQd73HI%2FNZkp76OtTX4bZ4pYMQdgEfl9n4pOVDFmWkBJsncv173RhIOGfuL5fnNUKGq4rI7HZWkSOivQX2sUhgQutlMZ%2FEiQ51hri5o5FM49Hc6xPqRYqPEpueE3JQWJ8N81nP83VJfzkGwYkGYix6xiwMMno2h4f%2BNyxElL4lmEc5dbUEm8f%2BlCtCvtEPd%2BrWMBwlNvDLi%2FAbgafh37xl%2BritqxlCzon%2F2jR331v%2B5sJEr5NcIWsRdMOOJrwynW5xHsLHyeTK1K6lkSaDQKgbE%2BIVbO96%2BkcdRIBzht%2FN92bAuZHLOaLZBybjaOIlnn2FRA6rvFNZqZmSW%2FuD1nHxvuTqjYpkZlRJmMWpdwg%2Fa6Vzm17U4eT7Bn6aw1wrbuVVSf72jwu5otTc4lupgUxuU1BZhBPK8U1zoNv3vXmjAxsVoGjdvSKvLe31X8Oee0fLYP5zZfX0ArrGN14bpiQUEWmyprh%2Fczq6VUL0DrNEtOlNuTvkPvFrRynFNqXYgwjGVTGPakAjC6spPYBjqkAZJfco9P9%2BWjAvFHuLLBcxNrKRNHfJYInN3U2tQQfVEpbEMHHYPLh0T6u7%2BMB25fA%2BqtjjCF%2FRdtN%2B33u3hrz%2FbyUQjoZnclm5%2FPgcfFq7oqInrfIF7M8F%2BpT6a1ckfdv7dnaMWmN6%2BuSDKefHk1jcIxNN%2F2ZaQnnpyy%2BFI1N2lpnHHcS%2FP6YTf5%2F4dgoaJubL06S%2BFASPz2Ybqdw4cPYsmzpgw1&Expires=1795480543",
         "size_bytes": 22920,
         "sha256": "20ab25803af5711ed5b91c064675a00b2a684146802cacb92c6a77d65e985a91",
-        "downloaded_at": "2026-11-23T00:40:40.305249+00:00",
+        "downloaded_at": "2026-11-24T00:34:43.729387+00:00",
         "etag": "\"2723e9b47fd551a773ef95db654f782f\"",
         "last_modified": "Thu, 23 Jul 2026 04:57:47 GMT",
         "reused_existing": false
@@ -521,7 +521,7 @@
         "feed_id": "F011",
         "municipality": "国立市",
         "service_name": "くにっこ",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-09-01",
         "feed_end_date": "2027-08-31",
@@ -588,10 +588,10 @@
         "status": "ok",
         "path": "data/raw/F023/feed.zip",
         "requested_url": "https://api.gtfs-data.jp/v2/organizations/ogasawaravillage/feeds/o/files/feed.zip",
-        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/ogasawaravillage/o/1cc35330-4357-491b-9356-00803b73feba/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_ogasawaravillage_o_20260210_20260210150856.zip&AWSAccessKeyId=ASIARI5CFYANLBLGBK2A&Signature=uAnJ5tQYbJYACuDdWMxsFssceYE%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkcwRQIgW1I1JcsY5hXGb1CHASbbII9IwicC7ODhdiXeEhlplOkCIQDqKJkxcFdmBmt3Jrynuck%2FWnVX3yjwM5gkkdQpQf6d5SrQBAhpEAUaDDA4Nzg1MDA3NDEzOCIMP8Nwn6d6monT%2BKahKq0EVx9Jhy%2FcmL3ddFD2Pwb97M3fwuSiplzbukAoh3tU2abIt6WiI1TYSD%2FF8NxZ4dICOmA0h%2Bm3OBNbCmusspqWjsBtnaoM7QvmO1F9LdWLJOxApbqeuBaVY9haDHTVDSTjk7%2FCXe7ZkOBFgLWwcYowPs1wRP29oR2wUIuGf2hLDYzymybSzCdmq8KeFOI1aER6JeOBYrJe5K3GXxlFb44gb27KNGx1P3lVaFpdvLHY7PIxqUL9Pbj%2BXtHf6sU4SKe3LyZ3dY7VLxNhx5wjmU%2FZNDob8FS4Lb%2FvTWTH1BZIxEbSy3IYxx7aSkax65hke8gsMcyatOKfOMsjcVoZDB2YlYPfC2kwVdYapKwrnIbF%2BCG4vT%2F%2Bkzb%2BOveulmYhYJoXZLo7hhEGKaBmEqskON4xLcm7sbkoIN2arIPAxvHyL3KZHoqff7igFrgIYzmHp7aV3UUfNUkNphHsUGyx9O5WEVGziU4L8V4U2fYaNjUAf5XGYE5VF0GiFq33xl5NoVnltvYkF0lQQxVp%2FBDNbWvie89EEmrFvFinreqdP0T9f3cLKGCX11fo4m0V9k1KrGRWw3%2BOhDRmGCSG2M%2BIlBWhIfepZlzHSpaadlpVVBr2voj9Ht1rOxqTk442%2BeW%2F385QFb0sVPH%2BiMa2QR2HcGTwMA8Q1imDu8wEknwQnbzmMWpGIKV8OOV52yB2GGqVlZgcFtaxLiZ6PAe%2F1Lu80Nl03cC7xBv%2B9j2Qxsc06Bsw4JWO2AY6owHjZCv76hpN53MDC967Vl7tlLxrZyH0MWqO%2F75BA6fync5VV2InYGMbMcPsAdLHoc8fdQstqc1owGSfDEVTrRfqIUIIkqSrNGjibfo17JeN0kqZtQJCG%2FgYsAJB9YEi6WPbnGdtBEPetXR0A70Zc%2BaUO98lHmjNkixA3U0Ddt8DZFrtRv6V201x5JKfkDCPDFc43IBIA%2B6WP2unrHnIbI2d5Zd2&Expires=1795394500",
+        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/ogasawaravillage/o/1cc35330-4357-491b-9356-00803b73feba/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_ogasawaravillage_o_20260210_20260210150856.zip&AWSAccessKeyId=ASIARI5CFYANPELDJ52I&Signature=xSUmojTwaEI8dKhJaP9oUhFUKnU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjELj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkcwRQIhAIWZbUA5IKyeSAAIAxvdao9xqd2VyM67PIiTDuOuFNdJAiBSNKkWAMrpE4yPjk%2BJkF2EfhQygiO1axu8y%2F8sOX0YkCrZBAiC%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDA4Nzg1MDA3NDEzOCIMtZnoCqCZkecBYxPSKq0EwUv%2B5pR9mdMF3mEG7nAxH8muI%2FlDc%2F8DvaZBG2tuuvuT41%2BCZ6QvL1TgcJgalIfo9YewJB5c32ARCPEGviaZZ6WYGmFAJ7AjFAl7jhEOSdm%2FjDiQn13kkr9WB7U%2B7k4r0lXSpR3tNIMp9IcMHqLlm1dlA2AjHdgVg%2Bw%2FIfrCIWyKIhul6qr32aUUUEmiSrrcVykHU25e4fSktwzj9ljjEPvgktdiq5GA9LixXVSYvcoRxaU2HQU4zGKU4Cow58XmKXZqfvGkmiSUIyx1cUB%2Fgd%2Fv%2Fw4p9qIL%2BQspMQoDx4Mi%2F2Antk9%2Feb0KDUgyFE3C5LqWirbFmhbDH7EkO5RHLdUdkF39jH11FVjlNusIqfp1DsyxPMqoCvwcTMmw7JwIJyygfg8IKufjerF%2FjaVU%2B4Kt6zAD7s%2Bu7Du%2F4nz%2B9XZ4XDztxrWf0ads6fJUVh0cbgFtk4MUhPcNDZMjFjUNl3zoa8JvugxZQ51ADHXdlgyTxvzRmxNz%2FIjs09JD7WE77siUyJi6Md6RqovdRsSrXemKrOMSuM89f3pxEMgLRpJ2173o4WoMgU%2BeqyfQkqk7pQn9MH70pw1SNG1LYcjpr2CVGhnZkrtGqBFdjekYZlLCWph97rkxZEjCeacx3oUo0OD4KzjveXZmcSjFDkk%2B6lF1yinIBdaSfBcBFQnACH7UFdSHQ%2BoiRTfosvKiz6HQ4yFjsvqqUkAbuBCxavP38LI6L%2FUuV08uTvyJRGUwurKT2AY6owEBh5fw2t9Ve6IxN06hDhGcajoVJbIHyvWHUBKxmxa1GKhXRcLkT43qLOtq9RR6gz3mkQ8IL8EGKZAsIR2NdQdo1%2BUnidFu6E5aSaDGGjHqSDJALUX9EVTdMw1QLBBS%2B%2FGGhcSk5%2F9oIYT9pFnr%2FNi0m%2B5WZHy02N9wB4GRgH4sOYfIcC8iBs3Tb5zZIG23EjjzCCkLbhND2v759CBgE53ysY1j&Expires=1795480544",
         "size_bytes": 8196,
         "sha256": "e576efcbcdb9688a75b3f6c29d5e6809e07752b90e0355720fea5eaaa8fe5f8c",
-        "downloaded_at": "2026-11-23T00:40:41.239320+00:00",
+        "downloaded_at": "2026-11-24T00:34:44.576926+00:00",
         "etag": "\"4de6d5b1498b774c4825cdf1aadbf415\"",
         "last_modified": "Tue, 10 Feb 2026 06:07:14 GMT",
         "reused_existing": false
@@ -600,7 +600,7 @@
         "feed_id": "F023",
         "municipality": "小笠原村",
         "service_name": "村営バス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-02-10",
         "feed_end_date": "2027-02-10",
@@ -621,9 +621,9 @@
         },
         "active_service_ids": [
           "全日",
-          "土日祝"
+          "平日"
         ],
-        "active_trip_count": 18,
+        "active_trip_count": 24,
         "has_shapes": false,
         "files": [
           "agency.txt",
@@ -673,10 +673,10 @@
         "status": "ok",
         "path": "data/raw/F003/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/HitachiAutomobileTransportation/AllLines.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/HitachiAutomobileTransportation/AllLines-20260401.zip?st=2026-11-23T00%3A39%3A41Z&se=2026-11-23T00%3A41%3A41Z&sp=r&sv=2018-03-28&sr=b&sig=wTBbXtgQf7yPpU9bAFircgeDSP9hhdMhm8lBLZF1coI%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/HitachiAutomobileTransportation/AllLines-20260401.zip?st=2026-11-24T00%3A33%3A45Z&se=2026-11-24T00%3A35%3A45Z&sp=r&sv=2018-03-28&sr=b&sig=FmyVqqJAgIQhlzJ6RFo3DSKJVNp%2F%2FwDBzsnKJPjXa94%3D",
         "size_bytes": 49303,
         "sha256": "082a9e6443644ea9d6f54c7f4f8195c329530fb54facee0218bdcbb924c9e73b",
-        "downloaded_at": "2026-11-23T00:40:42.351601+00:00",
+        "downloaded_at": "2026-11-24T00:34:45.693713+00:00",
         "etag": "\"0x8DE8FAE55B039A2\"",
         "last_modified": "Wed, 01 Apr 2026 05:20:05 GMT",
         "reused_existing": false
@@ -685,7 +685,7 @@
         "feed_id": "F003",
         "municipality": "文京区",
         "service_name": "Bーぐる",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-03-20",
         "feed_end_date": "2027-12-31",
@@ -707,10 +707,10 @@
           "trips.txt": 151
         },
         "active_service_ids": [
-          "土日祝",
+          "平日",
           "毎日"
         ],
-        "active_trip_count": 71,
+        "active_trip_count": 113,
         "has_shapes": true,
         "files": [
           "agency.txt",
@@ -756,10 +756,10 @@
         "status": "ok",
         "path": "data/raw/F025/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/TokyoSuginamiCity/GreenSlowMobility.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/TokyoSuginamiCity/GreenSlowMobility-20261001.zip?st=2026-11-23T00%3A39%3A42Z&se=2026-11-23T00%3A41%3A42Z&sp=r&sv=2018-03-28&sr=b&sig=uxxVlhHTpF%2FSwfIzLT7bPMplff6GtonU8IEQqQT4eMY%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/TokyoSuginamiCity/GreenSlowMobility-20261001.zip?st=2026-11-24T00%3A33%3A46Z&se=2026-11-24T00%3A35%3A46Z&sp=r&sv=2018-03-28&sr=b&sig=9pNpWdSZYILV9bXLqCdZdmakXNZdlrjYnYLdeRabeRA%3D",
         "size_bytes": 4576,
         "sha256": "8e7f4199e2f6556166058ba9d1ba7d76e412df13f59758c20d53f1128bc17d57",
-        "downloaded_at": "2026-11-23T00:40:43.341210+00:00",
+        "downloaded_at": "2026-11-24T00:34:46.590511+00:00",
         "etag": "\"0x8DF1F4C1AE7F839\"",
         "last_modified": "Wed, 30 Sep 2026 23:39:43 GMT",
         "reused_existing": false
@@ -768,7 +768,7 @@
         "feed_id": "F025",
         "municipality": "杉並区",
         "service_name": "グリーンスローモビリティ",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-07-24",
         "feed_end_date": "2028-06-30",
@@ -829,10 +829,10 @@
         "status": "ok",
         "path": "data/raw/F026/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/HigashiyamatoCity/AllLines_CC0.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/HigashiyamatoCity/AllLines_CC0-20261118.zip?st=2026-11-23T00%3A39%3A43Z&se=2026-11-23T00%3A41%3A43Z&sp=r&sv=2018-03-28&sr=b&sig=NKIIvYxGdqdDnV%2FuOeDWr03TD0GckJIv8uTYsMqhLO4%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/HigashiyamatoCity/AllLines_CC0-20261118.zip?st=2026-11-24T00%3A33%3A46Z&se=2026-11-24T00%3A35%3A46Z&sp=r&sv=2018-03-28&sr=b&sig=UHpwzLgolTQH8sQ56o2bibBxUuAk42c%2BT9FAfdDN0qw%3D",
         "size_bytes": 29328,
         "sha256": "4204194bdff6bdcdcee41967c58f5ac798fb21f52d9fa94b1cbec1c08349e5a6",
-        "downloaded_at": "2026-11-23T00:40:44.397681+00:00",
+        "downloaded_at": "2026-11-24T00:34:47.564062+00:00",
         "etag": "\"0x8DF4612EA5CBF91\"",
         "last_modified": "Thu, 19 Nov 2026 07:58:36 GMT",
         "reused_existing": false
@@ -841,7 +841,7 @@
         "feed_id": "F026",
         "municipality": "東大和市",
         "service_name": "ちょこバス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-02-09",
         "feed_end_date": "2027-03-31",
@@ -862,9 +862,9 @@
           "trips.txt": 84
         },
         "active_service_ids": [
-          "土日祝"
+          "平日"
         ],
-        "active_trip_count": 40,
+        "active_trip_count": 44,
         "has_shapes": true,
         "files": [
           "agency.txt",
@@ -906,10 +906,10 @@
         "status": "ok",
         "path": "data/raw/F015/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/HigashiMurayamaCity/Alllines.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/HigashiMurayamaCity/Alllines-20260401.zip?st=2026-11-23T00%3A39%3A44Z&se=2026-11-23T00%3A41%3A44Z&sp=r&sv=2018-03-28&sr=b&sig=I31vNeEQHLgrThJ%2BtoqFphBcWlWUY5SyCmISpJiarzc%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/HigashiMurayamaCity/Alllines-20260401.zip?st=2026-11-24T00%3A33%3A47Z&se=2026-11-24T00%3A35%3A47Z&sp=r&sv=2018-03-28&sr=b&sig=3jP7C9RhrGy6SuU8c1GS%2B1n8%2FzTCj92B3yLCM9n0WJM%3D",
         "size_bytes": 24915,
         "sha256": "5ee420e7c210e95a9480aa5306a1b333f4abf674ca3cf347840e81924a4d3eb9",
-        "downloaded_at": "2026-11-23T00:40:45.493400+00:00",
+        "downloaded_at": "2026-11-24T00:34:48.545311+00:00",
         "etag": "\"0x8DE9B71BD2DD5BD\"",
         "last_modified": "Thu, 16 Apr 2026 04:36:34 GMT",
         "reused_existing": false
@@ -918,7 +918,7 @@
         "feed_id": "F015",
         "municipality": "東村山市",
         "service_name": "グリーンバス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-04-01",
         "feed_end_date": "2028-03-31",
@@ -939,11 +939,11 @@
           "trips.txt": 155
         },
         "active_service_ids": [
-          "土日祝",
-          "日祝",
+          "平日",
+          "平日土曜",
           "毎日"
         ],
-        "active_trip_count": 87,
+        "active_trip_count": 98,
         "has_shapes": false,
         "files": [
           "agency.txt",
@@ -1011,10 +1011,10 @@
         "status": "ok",
         "path": "data/raw/F013/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/KiyoseCity/KiyoBus.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/KiyoseCity/KiyoBus-20260401.zip?st=2026-11-23T00%3A39%3A50Z&se=2026-11-23T00%3A41%3A50Z&sp=r&sv=2018-03-28&sr=b&sig=r1xcMVxDylbP8RF0dxB9Ww47x2uWlq6REpZe33u1Nf0%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/KiyoseCity/KiyoBus-20260401.zip?st=2026-11-24T00%3A33%3A53Z&se=2026-11-24T00%3A35%3A53Z&sp=r&sv=2018-03-28&sr=b&sig=xk%2BqUcApcNaPED8uGOku4g8DMlmoZiTQThMtD3lq74M%3D",
         "size_bytes": 12452,
         "sha256": "a7b8601156df4fff295b095e8819d37ef26570d1358931c05a1dfaa90e98cad4",
-        "downloaded_at": "2026-11-23T00:40:51.136654+00:00",
+        "downloaded_at": "2026-11-24T00:34:53.849414+00:00",
         "etag": "\"0x8DE9073026AB371\"",
         "last_modified": "Thu, 02 Apr 2026 04:47:56 GMT",
         "reused_existing": false
@@ -1023,7 +1023,7 @@
         "feed_id": "F013",
         "municipality": "清瀬市",
         "service_name": "きよバス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-04-01",
         "feed_end_date": "2027-11-23",
@@ -1044,7 +1044,7 @@
           "trips.txt": 48
         },
         "active_service_ids": [
-          "10-休日"
+          "10-平日"
         ],
         "active_trip_count": 16,
         "has_shapes": false,
@@ -1100,7 +1100,7 @@
         "resolved_url": "https://www.arcgis.com/sharing/rest/content/items/185d0dbc980443b8b60e135349e2ae5e/data",
         "size_bytes": 73419,
         "sha256": "bded3256e593b1864e0023ba4e7bb6d2ecc5c7a91bd4fead7b772b80191f804b",
-        "downloaded_at": "2026-11-23T00:40:51.491446+00:00",
+        "downloaded_at": "2026-11-24T00:34:54.135285+00:00",
         "etag": "\"1902e217130\"",
         "last_modified": null,
         "reused_existing": false
@@ -1109,7 +1109,7 @@
         "feed_id": "F001",
         "municipality": "渋谷区",
         "service_name": "ハチ公バス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2024-06-17",
         "feed_end_date": "2030-03-31",
@@ -1182,10 +1182,10 @@
         "status": "ok",
         "path": "data/raw/F018/feed.zip",
         "requested_url": "https://api.gtfs-data.jp/v2/organizations/mizuhotown/feeds/communitybus/files/feed.zip",
-        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/mizuhotown/communitybus/ed5e3d3d-3faf-4f5a-862a-a88247aaa341/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_mizuhotown_communitybus_20260301_20261001095144.zip&AWSAccessKeyId=ASIARI5CFYANDDFQSZEQ&Signature=6DSuSy82TxPots7j6yNvWZ%2F8RQM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkYwRAIgNH2nGVzGBTGCkvM30KQhTEspKKsbIF%2BkI1NudwJH%2Bb4CIGXYcVR6tlcIcUhXQMsovBkz9SWolQovE2DVc6Ck4fhQKtAECGoQBRoMMDg3ODUwMDc0MTM4Igx92Dp%2BPl5Gs7P%2FmKAqrQS4ATS2ke2tGHyEWMEhvt%2BdXMJNlHI1swVcW6c4aCMlw12Wke0A9wZq69vZ6IxFZvda15YecFj5k%2BEjawyO55EQ%2FjhbR4DEN7tbLII5QEvg9DTaED7mYkWqtNB0ixlSWtcnxmxWVXTmmNBoWf5NXxUfp86gGG%2FtK9wbx6z279GNdtbs9NrzmNnkpQvy%2BLOvlVTyX7iXZGABK4kF0jcAVBywflucyqxMEMaFGRzii7GxU429rUb8BMRAzwzHWNs8Ju1g%2B%2FgoE2zfTrLDAtnHZRCAYACMigAOy7VuppT%2Fhoa6IlP2J0BQ6DkwKDcB5%2F8xRxeZcreDxdP6QPMVJmYA0fU%2BPEb6aA4qZOUNCZqSBhJ%2BfvyuU0EuaxNNEfzWlJPseMI%2BYpFS0YUsthjws%2Fw9r34MJLh6uLrv7goxSxqXZosIl6f72ko%2BlyK46z%2Fk4f7%2BwRFH3yznRLqPwzo84xecwr%2F%2FZWaBzVlMrjp%2FpEdGMTUinNDRApek54xBTuwO35mb6%2Bz87F7siVZSSnQg5WMdHDIkjxcbfD4YHm%2FFftWUPLrMezpf8Jgyz5P4Ns9p7iVcn0JPrtM7gGxnt11BJqWwJXxjOgd2JRHnF3eo6uP3wqOHq0D2i%2Bu%2Fek6KYSaIi76eQQUI%2FMD8MWSFDFF%2F7jkPNuCC%2FViSLxO5MBSibfrLPDISx%2FaOX32qqIqhEQRnpu%2BLgZqQigQdskGLtddKbOSF5pjXod5q4oDWgB8rJqIdhTDZlY7YBjqkAbfORQW6diJclZFGwWnB7o886JJl%2F5Bd44fuFV8o3YI8489BowslEB%2Fq%2FKs%2FkuvCrMF6lN2xptyXfqwt3136YNGr8y78%2Fy%2B33htXY5Qc44%2BFvDBO%2BpA6i%2BNAMpTkCaLBaBQf1FULVv17MeLDdcSHcw3ytsoEeD9T50OeCQNeN5Sf76%2FXTyuyCY4sfkb3klUOFTwA%2FfFvBftBqqhHcOvKHdwlme0s&Expires=1795394511",
+        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/mizuhotown/communitybus/ed5e3d3d-3faf-4f5a-862a-a88247aaa341/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_mizuhotown_communitybus_20260301_20261001095144.zip&AWSAccessKeyId=ASIARI5CFYANL5AWCWLE&Signature=%2FzJIvH4%2Bnd3NL%2BFHjb%2B4gkJ9nFM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjELj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkYwRAIgLxWlkzhxUsnXNJvoW51aLSEJVIfzTWTB0BkGGpCSzVgCIEnx59WtMn%2FgPGY%2FjCM9%2B4d5wN%2FAcekU4La87BaRUSLOKtkECIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDg3ODUwMDc0MTM4IgzcsmTTqbeV4vCeYm4qrQQqPmf0mvTh0hrHzF1duVOdXOYtoGY0c1e7Y6Hc8UMskZIcdcTEZfGsTTj8jXl5Tqmw1FuVsfxtwUEusw%2FDTB26n61KRDLGr%2BcigrkfsApP6b2kCZxy5x2klCzQV1aOHPuIq8D4lqsfwkSklYx7ZNiG3tr7JijZaHhgKNo3Ccw9BE0i4NEDR0t9q4EoTaKhX1aW9c0Cnz7j1j23B4E2dLIj7ooainUhoQd73HI%2FNZkp76OtTX4bZ4pYMQdgEfl9n4pOVDFmWkBJsncv173RhIOGfuL5fnNUKGq4rI7HZWkSOivQX2sUhgQutlMZ%2FEiQ51hri5o5FM49Hc6xPqRYqPEpueE3JQWJ8N81nP83VJfzkGwYkGYix6xiwMMno2h4f%2BNyxElL4lmEc5dbUEm8f%2BlCtCvtEPd%2BrWMBwlNvDLi%2FAbgafh37xl%2BritqxlCzon%2F2jR331v%2B5sJEr5NcIWsRdMOOJrwynW5xHsLHyeTK1K6lkSaDQKgbE%2BIVbO96%2BkcdRIBzht%2FN92bAuZHLOaLZBybjaOIlnn2FRA6rvFNZqZmSW%2FuD1nHxvuTqjYpkZlRJmMWpdwg%2Fa6Vzm17U4eT7Bn6aw1wrbuVVSf72jwu5otTc4lupgUxuU1BZhBPK8U1zoNv3vXmjAxsVoGjdvSKvLe31X8Oee0fLYP5zZfX0ArrGN14bpiQUEWmyprh%2Fczq6VUL0DrNEtOlNuTvkPvFrRynFNqXYgwjGVTGPakAjC6spPYBjqkAZJfco9P9%2BWjAvFHuLLBcxNrKRNHfJYInN3U2tQQfVEpbEMHHYPLh0T6u7%2BMB25fA%2BqtjjCF%2FRdtN%2B33u3hrz%2FbyUQjoZnclm5%2FPgcfFq7oqInrfIF7M8F%2BpT6a1ckfdv7dnaMWmN6%2BuSDKefHk1jcIxNN%2F2ZaQnnpyy%2BFI1N2lpnHHcS%2FP6YTf5%2F4dgoaJubL06S%2BFASPz2Ybqdw4cPYsmzpgw1&Expires=1795480554",
         "size_bytes": 36525,
         "sha256": "60cc19db06e06fd068982decb41d397176dc85439c2faaa3085f1ca18bac3196",
-        "downloaded_at": "2026-11-23T00:40:52.565768+00:00",
+        "downloaded_at": "2026-11-24T00:34:55.164620+00:00",
         "etag": "\"68455d87d56beb10d8cae21e9f0f4829\"",
         "last_modified": "Thu, 01 Oct 2026 00:51:26 GMT",
         "reused_existing": false
@@ -1194,7 +1194,7 @@
         "feed_id": "F018",
         "municipality": "瑞穂町",
         "service_name": "コミュニティバス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-03-01",
         "feed_end_date": "2027-03-31",
@@ -1216,9 +1216,9 @@
           "trips.txt": 94
         },
         "active_service_ids": [
-          "土休日"
+          "平日"
         ],
-        "active_trip_count": 44,
+        "active_trip_count": 50,
         "has_shapes": true,
         "files": [
           "agency.txt",
@@ -1261,10 +1261,10 @@
         "status": "ok",
         "path": "data/raw/F016/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/MachidaCity/AllLines.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/MachidaCity/AllLines-20261001.zip?st=2026-11-23T00%3A39%3A53Z&se=2026-11-23T00%3A41%3A53Z&sp=r&sv=2018-03-28&sr=b&sig=l9ezs4qqH1aeWCfi67QEgn2OQiN2Z7kPyDqPPJm5%2F6E%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/MachidaCity/AllLines-20261001.zip?st=2026-11-24T00%3A33%3A55Z&se=2026-11-24T00%3A35%3A55Z&sp=r&sv=2018-03-28&sr=b&sig=QlPWmoQx%2FOeN7%2BH9iAu0lrdcQ9%2Bai%2FP1BXkmwnPvU%2Bs%3D",
         "size_bytes": 42547,
         "sha256": "0c40f90080cfd1e24fce993d535a2047ab29c91356a6db88bb14b965fc79fb06",
-        "downloaded_at": "2026-11-23T00:40:53.676043+00:00",
+        "downloaded_at": "2026-11-24T00:34:56.164737+00:00",
         "etag": "\"0x8DF3A3C18F74E99\"",
         "last_modified": "Wed, 04 Nov 2026 06:23:10 GMT",
         "reused_existing": false
@@ -1273,7 +1273,7 @@
         "feed_id": "F016",
         "municipality": "町田市",
         "service_name": "市民バス・コミュニティバス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2020-12-01",
         "feed_end_date": "2029-03-31",
@@ -1352,10 +1352,10 @@
         "status": "ok",
         "path": "data/raw/F028/feed.zip",
         "requested_url": "https://api.gtfs-data.jp/v2/organizations/kozushimavillage/feeds/kozushimavillagebus/files/feed.zip",
-        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/kozushimavillage/kozushimavillagebus/35f940a3-b0ff-4cb2-80a4-21599fb11991/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_kozushimavillage_kozushimavillagebus_20260129_20260209085722.zip&AWSAccessKeyId=ASIARI5CFYANNXECGR6O&Signature=mBa63A6im9O3ibZnvkcXZ5URczs%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkcwRQIhAP%2BYpHPf%2FDR3w1r0xdFilV%2F5OvL8u3oCcYl6FRCFnU3PAiA9e0AcwjwTGUC7pYQxy5AldYxj4EJor5SZcNaXM6upUyrQBAhqEAUaDDA4Nzg1MDA3NDEzOCIMejpUnXQwgiCGf9C6Kq0EvZgzAqaeNsCMcXAuhTRXbRNO6gxC25buwcATg8cwsFCbUdsDgKvKwYQE6T4lMaNiGpqKs72M6SCRTBt3k%2F3PuSfxJCDPsirAiKRpqb%2FdExuLEdXgXTpKbuQ4lmm5nU8cixAJzqqjJtsqtT4BvK711hHlv4NDm6dEVgQDOTHijF7f2NOz0B4qansnudPXGJaOv5RHgCEOdtLclpqvyKSj06ZP%2FGfC3roNGOX3%2FikjJhhY%2FnFprWJC%2BeT6QOaaPbPZ8ysWIRkp6LtX3Np6CNu9DRL%2Bm2PsUEuwHjUIAAg4hDE%2B3VoDZpFTxzzXJ1u9%2BOeTFbggNxfuSA%2Bwm9ACvilMjiLElgfRKlvUHxtIQwDfeLdMMME7AsP9s5m7d8TAtqMLsqoKzUhw4xWyGegtPouoqy11RaH7D5kgUhAD9q%2BCn9N96E1PrAzwS7g2fXjGf%2FPzaB1c5AKEoItPHb9W2CHBt%2FHoEiVHw9FcBztDFcr67Pc6Leg5kWECGU9LMcBbjaBZ03A%2B5%2FIQ1oFHm29xvObkmJrF%2FF7I1f95BlMMYyHAYOqm0h6V%2FJ7q2qSeiK5c0rRDIysA1ue0aZ2CQTg90ywl5ViuKDBxgNnjlGqpe3%2Fp5N%2FHIbtvTs5fvGdGdta87kYTwxXpPnsrMd7NamEMUuHIoEMZCm81ij2qrzDPw9m%2BUe4nZHK2ygbIquijkpz%2FZ1dBzFiocQaLq2i5%2F5m7YCXgCHGALTVRmgNHJN6ni1Qw4JWO2AY6owGnJh%2BUksnA%2BkECDd9UGGPJLHR7j%2BFV80f8pq1bHlksRgNHAxS6o12t9j9q2Fx5S3sAsFvvgGGzyJZPFlQQp9vxZ22PRqMj5Ok4IwK15KWgm0Od4FkDe6Tj1ceaut6Kpy2J3R%2FzUR3WijaONJJoWjhqrEGeXly8U49Z21B5MMeLQ1KbWvxKa5ZSuVAMUdStNOUDJ5CXXC21lizCLTK2SdeubUkZ&Expires=1795394514",
+        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/kozushimavillage/kozushimavillagebus/35f940a3-b0ff-4cb2-80a4-21599fb11991/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_kozushimavillage_kozushimavillagebus_20260129_20260209085722.zip&AWSAccessKeyId=ASIARI5CFYANHOJTBOPP&Signature=dfYphxa0Vxdz97miEiPIRwWgYQc%3D&x-amz-security-token=IQoJb3JpZ2luX2VjELj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkgwRgIhAKx8mVD5E1V%2BlX4z7FVT9VnBs7MX9HfGifqEk67jNaR0AiEA%2FTPsCxrE%2BQWcr%2BMVvb34CNhm2GNavLo0WtldHtQhneIq2QQIgf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwODc4NTAwNzQxMzgiDFxHky9TQ3Vkb6%2B04yqtBHKiIbFEDRhUaxk67ezL4Dh%2Bi8Ewi40Er34QSHJED3eN3RXK79QMgm7ies3bD%2BkWNSC%2BFwpTZdA%2FVW5Vs4MxI%2FPeEHIb%2B8bcfjiGDlmXxoDSXGRBzxX3nI10EtdnkuYrGPMspexswHZz9W86Kg6asQPfrMIPD8ZCuQ0vZOzT1j2GPNQ2lqcTnRaMiBWwqXvSXheb7aP9aRY%2B4ENMKZ2ZRCGVv8H2n7K0nzciqMAXGpagyIMQ37ZdMIB3fzRbAJ3XFZrGJJDIr8%2BUt9wQWlUmAO69Ep2%2Bgcciruhsf6aeHk%2BLlifM0bqjII8%2FFVdWXdU0bLCDRBEnwWveHmURwXObU9QltvIzGSjQOVNhtN1ycYYlAPXwA8PUgVxtBQ6ISzooXQGVh1NDXvzkzUp7XJLVqLUGYNZYS7kGBah2oXXbzYJbKoW3aji4JIArkmPlDOFSJLKf5xxHl9F0XOqThZl7TXtQLPYg%2ByYhQd4G551rSUYO2BJ3cOUVQjX9EqKPiZisfNHaPQd3L8A4JOERtQXIgqsUw8huGkYxqi45ELbgQbK0j41DOFh%2BgMkvJM4jGawp6oA15GPQo87P3kxBbeDy2X4PgDIdSKoTcy5TDY42tnJz7fZlF9w29j3UkjJpR%2BUtqwEdsHU1FNTbQxUvdNV7UXoWKTt34KehmFlohf%2FbS2djEECc10NaA%2BexMaq8%2FOnh1DxQPQQaAsJbpuqqkbu35C5ocAedN%2B4MSx2xaVOsMLqyk9gGOqIBEAHA8Wtc%2FInDCXt9vbwIVCr3WxDPEJyhzEKYGCnEBT41C1K%2F%2BzuGaSGrYaqr9BhwsoqWK1gALFwvAAtxnj7OnIO%2FeyDx5OUDDMHs16%2FVFc%2BWUdIFXmvPsfdzaS2u6QgZo%2B2%2BChQCH%2FoF9LAEkhCnK61nBrCKAVz45aHHSgNC%2Fx58n51oGMow32vo0LPHBJBQOQwCf3y1ryn7%2FYBw7owBc%2Fkq&Expires=1795480556",
         "size_bytes": 130178,
         "sha256": "84a29423238cdc1513a7d20c82520add0fa1047b8f828381bd8d13cb0ee0789a",
-        "downloaded_at": "2026-11-23T00:40:54.841089+00:00",
+        "downloaded_at": "2026-11-24T00:34:57.318746+00:00",
         "etag": "\"5798c2948aa16cea1100265d5af29a7f\"",
         "last_modified": "Sun, 08 Feb 2026 23:55:42 GMT",
         "reused_existing": false
@@ -1364,7 +1364,7 @@
         "feed_id": "F028",
         "municipality": "神津島村",
         "service_name": "村営バス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-01-29",
         "feed_end_date": "2027-01-28",
@@ -1431,10 +1431,10 @@
         "status": "ok",
         "path": "data/raw/F014/feed.zip",
         "requested_url": "https://api.gtfs-data.jp/v2/organizations/tachikawacity/feeds/kururinbus/files/feed.zip",
-        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/tachikawacity/kururinbus/593967fd-2228-42f0-bb3a-4c8e81cb9c78/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_tachikawacity_kururinbus_20260401_20260330141728.zip&AWSAccessKeyId=ASIARI5CFYANLBLGBK2A&Signature=aqmT01333%2F9akntgcR%2Bwv4lxjRs%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkcwRQIgW1I1JcsY5hXGb1CHASbbII9IwicC7ODhdiXeEhlplOkCIQDqKJkxcFdmBmt3Jrynuck%2FWnVX3yjwM5gkkdQpQf6d5SrQBAhpEAUaDDA4Nzg1MDA3NDEzOCIMP8Nwn6d6monT%2BKahKq0EVx9Jhy%2FcmL3ddFD2Pwb97M3fwuSiplzbukAoh3tU2abIt6WiI1TYSD%2FF8NxZ4dICOmA0h%2Bm3OBNbCmusspqWjsBtnaoM7QvmO1F9LdWLJOxApbqeuBaVY9haDHTVDSTjk7%2FCXe7ZkOBFgLWwcYowPs1wRP29oR2wUIuGf2hLDYzymybSzCdmq8KeFOI1aER6JeOBYrJe5K3GXxlFb44gb27KNGx1P3lVaFpdvLHY7PIxqUL9Pbj%2BXtHf6sU4SKe3LyZ3dY7VLxNhx5wjmU%2FZNDob8FS4Lb%2FvTWTH1BZIxEbSy3IYxx7aSkax65hke8gsMcyatOKfOMsjcVoZDB2YlYPfC2kwVdYapKwrnIbF%2BCG4vT%2F%2Bkzb%2BOveulmYhYJoXZLo7hhEGKaBmEqskON4xLcm7sbkoIN2arIPAxvHyL3KZHoqff7igFrgIYzmHp7aV3UUfNUkNphHsUGyx9O5WEVGziU4L8V4U2fYaNjUAf5XGYE5VF0GiFq33xl5NoVnltvYkF0lQQxVp%2FBDNbWvie89EEmrFvFinreqdP0T9f3cLKGCX11fo4m0V9k1KrGRWw3%2BOhDRmGCSG2M%2BIlBWhIfepZlzHSpaadlpVVBr2voj9Ht1rOxqTk442%2BeW%2F385QFb0sVPH%2BiMa2QR2HcGTwMA8Q1imDu8wEknwQnbzmMWpGIKV8OOV52yB2GGqVlZgcFtaxLiZ6PAe%2F1Lu80Nl03cC7xBv%2B9j2Qxsc06Bsw4JWO2AY6owHjZCv76hpN53MDC967Vl7tlLxrZyH0MWqO%2F75BA6fync5VV2InYGMbMcPsAdLHoc8fdQstqc1owGSfDEVTrRfqIUIIkqSrNGjibfo17JeN0kqZtQJCG%2FgYsAJB9YEi6WPbnGdtBEPetXR0A70Zc%2BaUO98lHmjNkixA3U0Ddt8DZFrtRv6V201x5JKfkDCPDFc43IBIA%2B6WP2unrHnIbI2d5Zd2&Expires=1795394515",
+        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/tachikawacity/kururinbus/593967fd-2228-42f0-bb3a-4c8e81cb9c78/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_tachikawacity_kururinbus_20260401_20260330141728.zip&AWSAccessKeyId=ASIARI5CFYANMG5JCPUM&Signature=3LqXhFpVxPGdv4HuG%2F1A7BcB6CA%3D&x-amz-security-token=IQoJb3JpZ2luX2VjELj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkYwRAIgcVkXnKSZIhSJg1mmQrjYFtEWa56%2BXjCSwnm3bfv85nMCIGK4uhem8e6HGr7eSitAXj3IlyFAxhiEBkQK8QTzmuovKtkECIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDg3ODUwMDc0MTM4IgxH%2BoWI3BiIyFCT9kgqrQRRhUwQ5%2Bx8dx8KL%2BJrsk%2BUAxXXKU5zctpBmys7bxAp7Yr3adzRuS7NZnt2YymNqmbNl%2By%2BcY5u0H2UdIvpaxwhpM3zZl%2BIEo3m71Jg1iqhXPmkk6Fl3POrOGEMWxNHFALHXrfy7HeTaCPAuaa0MmtSSPSn3Oype7lgqLQ13tsn8QObd3SN5rc3zWTTid6KY8YhyrCD1hQacVmIiMJ%2BzGujszXsVkWW7U25tV3mT%2Fp3OctxmclqnXMeUMmphl0oNxz4lAxbLWsEgif07P974jO9CRlrEhXZ5NWtyeCQeozLWjCrMJkwPXnB7fhz6KRa2W%2B69hgVYyFChkuIgfeG9USI%2BXItBZoVixMwGatO2cfkVWvTzrPreA7x5VE%2FW%2B6WrlK9vwyHJc5pAcFAIpw0dq0UYhkvBPOLcRZGN0U4trwHJzPN25j3P7fYFDyAkpHlIId6SQ01IbFUjQRRqK5mnldgrIz2tJ9ou5whj%2FEPuXrSHKcMwy8b%2FNhkxibb6BUZrb5zn8RHHEIy82WsNpG4wxDri7IlsDIKSi6USHQXRrJdbqGjE%2BDQqUq7mkd5OPeJc9vFPX0tMHMwW%2FtEOS7GRCbLbdzIAVJLWdlF%2F9X1hZZLo3mx72lU%2BebEUCdaRiD2sIjGjZxYqW7cGjiAcPiX%2FT0S%2BFS3uopPojLMzI%2BN2VyYlgnTvGdcSeWh2T4BlVACKKJqMhao1FuIDl5dPafSeexY%2B6hMktseOKY3DyQdMTC6spPYBjqkATwhgjVgiwhDqX%2FrjRIwD5BkOUoWGPZDjeRrVBUSApJtN8ZAIDMxIHbY2M26IsHz%2BOMIlJIK2XCeeD6MoOLY3aT9U9gpJfgl1kG2AlVcTbHcYiWqbHOxGXPc8duiz6%2Bnwl4ZBg0UNTlRhWvh7AVIMJ2jMD%2FFEetldC39PZp4XspxbOXJira69c%2FyiifxD%2FxJhXAZtHuWctEPpuWu7efbmkk6MgfB&Expires=1795480557",
         "size_bytes": 35630,
         "sha256": "101a2549fd9276be2fbeb9b2123f901e1f7a196392fc9792075ffa7fcde50de5",
-        "downloaded_at": "2026-11-23T00:40:55.831431+00:00",
+        "downloaded_at": "2026-11-24T00:34:58.383558+00:00",
         "etag": "\"b7e34b39574ceae7194f4daf182044a1\"",
         "last_modified": "Mon, 30 Mar 2026 05:07:46 GMT",
         "reused_existing": false
@@ -1443,7 +1443,7 @@
         "feed_id": "F014",
         "municipality": "立川市",
         "service_name": "くるりん",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-04-01",
         "feed_end_date": "2027-03-31",
@@ -1463,9 +1463,9 @@
           "trips.txt": 173
         },
         "active_service_ids": [
-          "土日祝"
+          "平日"
         ],
-        "active_trip_count": 33,
+        "active_trip_count": 81,
         "has_shapes": false,
         "files": [
           "agency.txt",
@@ -1515,10 +1515,10 @@
         "status": "ok",
         "path": "data/raw/F029/feed.zip",
         "requested_url": "https://api.gtfs-data.jp/v2/organizations/arakawacity/feeds/sakura/files/feed.zip",
-        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/arakawacity/sakura/f42df805-0434-4196-af64-c9641b284388/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_arakawacity_sakura_20260301_20260304112838.zip&AWSAccessKeyId=ASIARI5CFYANDDFQSZEQ&Signature=dadyUhG9%2FdVfSbzfcKE5dXkTlS4%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkYwRAIgNH2nGVzGBTGCkvM30KQhTEspKKsbIF%2BkI1NudwJH%2Bb4CIGXYcVR6tlcIcUhXQMsovBkz9SWolQovE2DVc6Ck4fhQKtAECGoQBRoMMDg3ODUwMDc0MTM4Igx92Dp%2BPl5Gs7P%2FmKAqrQS4ATS2ke2tGHyEWMEhvt%2BdXMJNlHI1swVcW6c4aCMlw12Wke0A9wZq69vZ6IxFZvda15YecFj5k%2BEjawyO55EQ%2FjhbR4DEN7tbLII5QEvg9DTaED7mYkWqtNB0ixlSWtcnxmxWVXTmmNBoWf5NXxUfp86gGG%2FtK9wbx6z279GNdtbs9NrzmNnkpQvy%2BLOvlVTyX7iXZGABK4kF0jcAVBywflucyqxMEMaFGRzii7GxU429rUb8BMRAzwzHWNs8Ju1g%2B%2FgoE2zfTrLDAtnHZRCAYACMigAOy7VuppT%2Fhoa6IlP2J0BQ6DkwKDcB5%2F8xRxeZcreDxdP6QPMVJmYA0fU%2BPEb6aA4qZOUNCZqSBhJ%2BfvyuU0EuaxNNEfzWlJPseMI%2BYpFS0YUsthjws%2Fw9r34MJLh6uLrv7goxSxqXZosIl6f72ko%2BlyK46z%2Fk4f7%2BwRFH3yznRLqPwzo84xecwr%2F%2FZWaBzVlMrjp%2FpEdGMTUinNDRApek54xBTuwO35mb6%2Bz87F7siVZSSnQg5WMdHDIkjxcbfD4YHm%2FFftWUPLrMezpf8Jgyz5P4Ns9p7iVcn0JPrtM7gGxnt11BJqWwJXxjOgd2JRHnF3eo6uP3wqOHq0D2i%2Bu%2Fek6KYSaIi76eQQUI%2FMD8MWSFDFF%2F7jkPNuCC%2FViSLxO5MBSibfrLPDISx%2FaOX32qqIqhEQRnpu%2BLgZqQigQdskGLtddKbOSF5pjXod5q4oDWgB8rJqIdhTDZlY7YBjqkAbfORQW6diJclZFGwWnB7o886JJl%2F5Bd44fuFV8o3YI8489BowslEB%2Fq%2FKs%2FkuvCrMF6lN2xptyXfqwt3136YNGr8y78%2Fy%2B33htXY5Qc44%2BFvDBO%2BpA6i%2BNAMpTkCaLBaBQf1FULVv17MeLDdcSHcw3ytsoEeD9T50OeCQNeN5Sf76%2FXTyuyCY4sfkb3klUOFTwA%2FfFvBftBqqhHcOvKHdwlme0s&Expires=1795394516",
+        "resolved_url": "https://prodgtfsdatareposharedinfrasta-filebucketcdfcd6de-1qqhtsxlwh6la.s3.amazonaws.com/arakawacity/sakura/f42df805-0434-4196-af64-c9641b284388/feed.zip?response-content-disposition=attachment%3B%20filename%3Dfeed_arakawacity_sakura_20260301_20260304112838.zip&AWSAccessKeyId=ASIARI5CFYANPELDJ52I&Signature=YZ41IZS3rfowM9I12F42OkqtgGQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjELj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkcwRQIhAIWZbUA5IKyeSAAIAxvdao9xqd2VyM67PIiTDuOuFNdJAiBSNKkWAMrpE4yPjk%2BJkF2EfhQygiO1axu8y%2F8sOX0YkCrZBAiC%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDA4Nzg1MDA3NDEzOCIMtZnoCqCZkecBYxPSKq0EwUv%2B5pR9mdMF3mEG7nAxH8muI%2FlDc%2F8DvaZBG2tuuvuT41%2BCZ6QvL1TgcJgalIfo9YewJB5c32ARCPEGviaZZ6WYGmFAJ7AjFAl7jhEOSdm%2FjDiQn13kkr9WB7U%2B7k4r0lXSpR3tNIMp9IcMHqLlm1dlA2AjHdgVg%2Bw%2FIfrCIWyKIhul6qr32aUUUEmiSrrcVykHU25e4fSktwzj9ljjEPvgktdiq5GA9LixXVSYvcoRxaU2HQU4zGKU4Cow58XmKXZqfvGkmiSUIyx1cUB%2Fgd%2Fv%2Fw4p9qIL%2BQspMQoDx4Mi%2F2Antk9%2Feb0KDUgyFE3C5LqWirbFmhbDH7EkO5RHLdUdkF39jH11FVjlNusIqfp1DsyxPMqoCvwcTMmw7JwIJyygfg8IKufjerF%2FjaVU%2B4Kt6zAD7s%2Bu7Du%2F4nz%2B9XZ4XDztxrWf0ads6fJUVh0cbgFtk4MUhPcNDZMjFjUNl3zoa8JvugxZQ51ADHXdlgyTxvzRmxNz%2FIjs09JD7WE77siUyJi6Md6RqovdRsSrXemKrOMSuM89f3pxEMgLRpJ2173o4WoMgU%2BeqyfQkqk7pQn9MH70pw1SNG1LYcjpr2CVGhnZkrtGqBFdjekYZlLCWph97rkxZEjCeacx3oUo0OD4KzjveXZmcSjFDkk%2B6lF1yinIBdaSfBcBFQnACH7UFdSHQ%2BoiRTfosvKiz6HQ4yFjsvqqUkAbuBCxavP38LI6L%2FUuV08uTvyJRGUwurKT2AY6owEBh5fw2t9Ve6IxN06hDhGcajoVJbIHyvWHUBKxmxa1GKhXRcLkT43qLOtq9RR6gz3mkQ8IL8EGKZAsIR2NdQdo1%2BUnidFu6E5aSaDGGjHqSDJALUX9EVTdMw1QLBBS%2B%2FGGhcSk5%2F9oIYT9pFnr%2FNi0m%2B5WZHy02N9wB4GRgH4sOYfIcC8iBs3Tb5zZIG23EjjzCCkLbhND2v759CBgE53ysY1j&Expires=1795480558",
         "size_bytes": 12154,
         "sha256": "9d4336d0d39341f732ab3a70eb4febc38ca82f1c2a62863bfa57770bef9e08b0",
-        "downloaded_at": "2026-11-23T00:40:56.743556+00:00",
+        "downloaded_at": "2026-11-24T00:34:59.197473+00:00",
         "etag": "\"a5eb34855dc7c57198178b61d789a27a\"",
         "last_modified": "Wed, 04 Mar 2026 02:27:46 GMT",
         "reused_existing": false
@@ -1527,7 +1527,7 @@
         "feed_id": "F029",
         "municipality": "荒川区",
         "service_name": "コミュニティバスさくら",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-03-01",
         "feed_end_date": "2027-03-21",
@@ -1549,7 +1549,7 @@
           "trips.txt": 34
         },
         "active_service_ids": [
-          "土休日",
+          "平日",
           "毎日"
         ],
         "active_trip_count": 28,
@@ -1595,10 +1595,10 @@
         "status": "ok",
         "path": "data/raw/F030/feed.zip",
         "requested_url": "https://api-public.odpt.org/api/v4/files/odpt/NishitokyoCity/AllLines.zip?date=current",
-        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/NishitokyoCity/AllLines-20260401.zip?st=2026-11-23T00%3A39%3A57Z&se=2026-11-23T00%3A41%3A57Z&sp=r&sv=2018-03-28&sr=b&sig=x%2F9Q5YSxjI7h%2FI5%2FXilAtuyisCVvJ%2BXe83mEN%2BbgJj0%3D",
+        "resolved_url": "https://dataodpt.blob.core.windows.net/files-open/odpt/NishitokyoCity/AllLines-20260401.zip?st=2026-11-24T00%3A33%3A59Z&se=2026-11-24T00%3A35%3A59Z&sp=r&sv=2018-03-28&sr=b&sig=4FG2CyoMGtasu%2BOGqDaRmBC9dnpIa5vz2yMsZaQvxWE%3D",
         "size_bytes": 100833,
         "sha256": "154f7f38860b381c56ab02ca24c73bf7d2673c9b57520fcae0072f6bf083e637",
-        "downloaded_at": "2026-11-23T00:40:57.952849+00:00",
+        "downloaded_at": "2026-11-24T00:35:00.417604+00:00",
         "etag": "\"0x8DE8E25FD93CBB4\"",
         "last_modified": "Mon, 30 Mar 2026 06:31:35 GMT",
         "reused_existing": false
@@ -1607,7 +1607,7 @@
         "feed_id": "F030",
         "municipality": "西東京市",
         "service_name": "はなバス",
-        "service_date": "2026-11-23",
+        "service_date": "2026-11-24",
         "status": "valid",
         "feed_start_date": "2026-04-01",
         "feed_end_date": "2027-03-31",
@@ -1628,9 +1628,9 @@
           "trips.txt": 514
         },
         "active_service_ids": [
-          "土休日"
+          "平日"
         ],
-        "active_trip_count": 211,
+        "active_trip_count": 227,
         "has_shapes": true,
         "files": [
           "agency.txt",
