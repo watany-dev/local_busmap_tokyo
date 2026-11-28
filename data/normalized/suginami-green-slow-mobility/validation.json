@@ -2,11 +2,11 @@
   "feed_id": "F025",
   "municipality": "杉並区",
   "service_name": "グリーンスローモビリティ",
-  "service_date": "2026-11-27",
+  "service_date": "2026-11-28",
   "status": "valid",
-  "feed_start_date": "2026-07-24",
+  "feed_start_date": "2026-10-01",
   "feed_end_date": "2028-06-30",
-  "feed_version": "Suginami_City_Guri_20260724",
+  "feed_version": "Suginami_City_Guri_20261001_001",
   "counts": {
     "agency.txt": 1,
     "agency_jp.txt": 1,
@@ -15,9 +15,9 @@
     "fare_rules.txt": 1,
     "feed_info.txt": 1,
     "routes.txt": 1,
-    "shapes.txt": 50,
-    "stop_times.txt": 120,
-    "stops.txt": 4,
+    "shapes.txt": 79,
+    "stop_times.txt": 144,
+    "stops.txt": 5,
     "trips.txt": 24
   },
   "active_service_ids": [
